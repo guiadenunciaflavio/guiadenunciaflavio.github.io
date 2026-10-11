@@ -3,220 +3,148 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Guia de leitura da denúncia das rachadinhas</title>
-<meta name="description" content="Guia de leitura, passo a passo, da denúncia do MPRJ (2020) contra Flávio Bolsonaro e outras 16 pessoas. Cada ponto leva à página exata do documento público, com o trecho marcado.">
+<title>Guias de leitura: documentos públicos, página por página</title>
+<meta name="description" content="Dois guias para ler do zero documentos públicos: a denúncia do MPRJ contra Flávio Bolsonaro no caso das rachadinhas e a decisão do STF que declarou Sergio Moro parcial no caso de Lula. Cada ponto abre a página exata, com o trecho marcado.">
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Guia da denúncia">
+<meta property="og:site_name" content="Guias de leitura">
 <meta property="og:locale" content="pt_BR">
-<meta property="og:title" content="O que a denúncia diz, página por página">
-<meta property="og:description" content="Guia de leitura da denúncia do MPRJ (2020) contra Flávio Bolsonaro e outras 16 pessoas. Cada ponto abre a página exata do documento público, com o trecho marcado.">
+<meta property="og:title" content="Documentos públicos, página por página">
+<meta property="og:description" content="A denúncia das rachadinhas e a decisão do STF que declarou Moro parcial. Cada ponto abre a página exata do documento original, com o trecho marcado.">
 <meta property="og:url" content="https://guiadenunciaflavio.github.io/">
-<meta property="og:image" content="https://guiadenunciaflavio.github.io/og/guia.jpg">
+<meta property="og:image" content="https://guiadenunciaflavio.github.io/inicio/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Título do guia com um trecho marcado da página 1 da denúncia">
+<meta property="og:image:alt" content="Os dois guias, cada um com um trecho marcado do documento original">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="assets/app.css">
+<script>
+  // links antigos do guia da denúncia (de quando ele ficava aqui) seguem para a pasta nova
+  (function () { var h = location.hash; if (/^#(a|tema|p)=/.test(h)) location.replace('denuncia/' + h); })();
+</script>
+<style>
+:root{
+  --paper:#f3f5f8;--card:#fff;--ink:#16202e;--ink-2:#4a5568;--line:#d8dee7;
+  --mark:#ffe14d;--link:#0b4fa8;--focus:#0b4fa8;
+  --serif:Charter,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --tag-doc:#0b6b5c;--tag-doc-bg:#dff3ee;--tag-all:#9a4a00;--tag-all-bg:#fdebd3;--tag-int:#5b3ba8;--tag-int-bg:#ebe5f8;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0f1520;--card:#18212f;--ink:#eef2f7;--ink-2:#aeb9c9;--line:#2a3547;--link:#8cb8ff;--focus:#8cb8ff;
+    --tag-doc:#7fd9c4;--tag-doc-bg:#123a33;--tag-all:#ffc58a;--tag-all-bg:#3d2a14;--tag-int:#c9b6ff;--tag-int-bg:#2c2347;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0f1520;--card:#18212f;--ink:#eef2f7;--ink-2:#aeb9c9;--line:#2a3547;--link:#8cb8ff;--focus:#8cb8ff;
+  --tag-doc:#7fd9c4;--tag-doc-bg:#123a33;--tag-all:#ffc58a;--tag-all-bg:#3d2a14;--tag-int:#c9b6ff;--tag-int-bg:#2c2347;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 var(--sans)}
+a{color:var(--link)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:var(--paper);padding:.6rem 1rem;z-index:10}
+.skip:focus{left:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+
+.top{border-bottom:1px solid var(--line);background:var(--card)}
+.top .wrap{display:flex;align-items:center;min-height:58px}
+.brand{display:flex;align-items:center;gap:.6rem;font-weight:700;color:var(--ink);text-decoration:none}
+.brand-mark{width:22px;height:22px;background:linear-gradient(transparent 55%,var(--mark) 55% 88%,transparent 88%),#16202e;border-radius:3px;box-shadow:inset 0 0 0 2px #16202e}
+
+.intro{padding:3.2rem 0 2.2rem;max-width:46rem}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(2.1rem,5.4vw,3.5rem);line-height:1.12;margin:0 0 1.1rem;letter-spacing:-.01em}
+/* o marca-texto amarelo é o mesmo dos trechos marcados nos documentos */
+h1 .mk{background:linear-gradient(transparent 58%,var(--mark) 58% 92%,transparent 92%);-webkit-box-decoration-break:clone;box-decoration-break:clone;padding:0 .08em}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) h1 .mk{background:linear-gradient(transparent 58%,rgba(255,225,77,.38) 58% 92%,transparent 92%)}}
+.lead{font-family:var(--serif);font-size:1.2rem;line-height:1.55;margin:0;max-width:40rem}
+
+.guides{display:grid;grid-template-columns:1fr;gap:1.4rem;padding-bottom:2.6rem}
+@media (min-width:860px){.guides{grid-template-columns:1fr 1fr;gap:1.8rem}}
+.guide{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem 1rem 1.3rem;display:flex;flex-direction:column}
+.shot{position:relative;display:block;border-radius:9px;overflow:hidden;border:1px solid var(--line);background:#fff;margin-bottom:1.1rem}
+.shot img{display:block;width:100%;height:auto}
+.shot .pg{position:absolute;left:10px;top:10px;background:#16202e;color:#fff;font:700 .78rem/1 var(--sans);padding:.38rem .6rem;border-radius:999px}
+.guide h2{font-family:var(--serif);font-size:1.62rem;line-height:1.18;margin:0 .1rem .6rem}
+.guide h2 a{color:inherit;text-decoration:none}
+.guide h2 a:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
+.guide p{margin:0 .1rem .8rem;color:var(--ink-2)}
+.guide .facts{color:var(--ink);font-weight:600;font-size:.95rem;margin-bottom:1.1rem}
+.guide .btn{margin-top:auto;align-self:flex-start}
+.btn{display:inline-block;padding:.7rem 1.1rem;border:2px solid var(--ink);border-radius:10px;background:var(--mark);color:#16202e;font:700 1rem var(--sans);text-decoration:none;box-shadow:3px 3px 0 var(--ink)}
+.btn:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--ink)}
+@media (prefers-reduced-motion:reduce){.btn:hover{transform:none}}
+
+.how{border-top:1px solid var(--line);padding:2rem 0 1rem;max-width:46rem}
+.how h2{font-family:var(--serif);font-size:1.45rem;margin:0 0 .8rem}
+.how ul{list-style:none;padding:0;margin:0 0 1rem}
+.how li{margin:.55rem 0}
+.how p{color:var(--ink-2)}
+.tag{display:inline-block;font:700 .82rem/1 var(--sans);padding:.3rem .55rem;border-radius:999px;margin-right:.35rem;vertical-align:.08em}
+.t-doc{color:var(--tag-doc);background:var(--tag-doc-bg)}
+.t-all{color:var(--tag-all);background:var(--tag-all-bg)}
+.t-int{color:var(--tag-int);background:var(--tag-int-bg)}
+
+.foot{border-top:1px solid var(--line);margin-top:1.5rem;padding:1.2rem 0 2.4rem;font-size:.9rem;color:var(--ink-2)}
+.foot p{margin:0;max-width:46rem}
+</style>
 </head>
 <body>
-<a class="skip" href="#conteudo">Ir para o conteúdo</a>
-
-<header class="top" id="topo">
-  <a class="brand" href="#inicio" aria-label="Início">
-    <span class="brand-mark" aria-hidden="true"></span>
-    <span class="brand-text">Guia da denúncia</span>
-  </a>
-  <nav class="nav" aria-label="Seções">
-    <a href="#entenda">Entenda</a>
-    <a href="#cronologia">Cronologia</a>
-    <a href="#temas">Temas</a>
-    <a href="#roteiro">Roteiro de Tudo</a>
-    <a href="#extras">Fatos extras</a>
-    <a href="#desfecho">Desfecho</a>
-    <a href="#glossario">Glossário</a>
-  </nav>
-  <form class="search" id="searchForm" role="search">
-    <label class="sr" for="q">Buscar no documento</label>
-    <input id="q" type="search" placeholder="Buscar no documento (ex.: Queiroz, chocolate)" autocomplete="off">
-    <button type="submit">Buscar</button>
-  </form>
-  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mobileNav">Menu</button>
+<a class="skip" href="#guias">Ir para os guias</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true"></span><span>Guias de leitura</span></a>
+  </div>
 </header>
-<nav class="mobile-nav" id="mobileNav" hidden aria-label="Seções (celular)"></nav>
 
-<div class="layout" id="layout">
-<main id="conteudo" tabindex="-1">
-
-  <section class="hero" id="inicio">
-    <div class="hero-copy">
-      <h1>O que a denúncia diz, <span class="nowrap">página por página</span></h1>
-      <p class="lead">Em outubro de 2020, o Ministério Público do Rio de Janeiro denunciou Flávio Bolsonaro e outras 16 pessoas no caso das “rachadinhas”. O documento tem 290 páginas. Este guia tira você do zero: cada ponto abre a página certa, com o trecho marcado.</p>
-      <div class="hero-actions">
-        <a class="btn primary" href="#entenda">Entender em 2 minutos</a>
-        <a class="btn" href="#cronologia">Ver a cronologia</a>
-        <button class="btn" data-open-page="1">Abrir o documento</button>
-      </div>
-      <p class="fine">Uma denúncia é a acusação do Ministério Público. Não é condenação. Flávio Bolsonaro nega irregularidades e o caso foi anulado antes de qualquer julgamento do mérito (veja <a href="#desfecho">Desfecho</a>).</p>
-    </div>
-    <figure class="pagemap-wrap">
-      <figcaption>Mapa das 290 páginas. Cada quadradinho é uma página; toque para abrir.</figcaption>
-      <div id="pagemap" class="pagemap" role="list"></div>
-      <div id="pagemapLegend" class="pagemap-legend"></div>
-    </figure>
+<main class="wrap" id="conteudo">
+  <section class="intro">
+    <h1><span class="mk">Documentos públicos, página por página</span></h1>
+    <p class="lead">Dois guias para ler do zero documentos oficiais de casos que dividem o país. Cada ponto abre a página exata do original, com o trecho marcado, e diz se aquilo é um fato registrado ou uma afirmação.</p>
   </section>
 
-  <section class="how" aria-label="Como ler este guia">
-    <h2 class="sr">Como ler este guia</h2>
-    <ul class="labels">
-      <li><span class="tag t-doc">documentado</span> está escrito no documento com número, data ou valor, e você pode conferir na página.</li>
-      <li><span class="tag t-all">alegado</span> é o que o Ministério Público afirma, mas ainda não foi provado em julgamento.</li>
-      <li><span class="tag t-int">interpretação</span> é uma leitura nossa ou de terceiros, que liga fatos. Não está escrita como acusação.</li>
+  <section class="guides" id="guias" aria-label="Escolha um guia">
+    <article class="guide">
+      <a class="shot" href="denuncia/" tabindex="-1" aria-hidden="true">
+        <img src="inicio/denuncia.jpg" width="961" height="601" alt="">
+        <span class="pg">denúncia, página 9</span>
+      </a>
+      <h2><a href="denuncia/">A denúncia das rachadinhas</a></h2>
+      <p>A acusação do Ministério Público do Rio de Janeiro contra Flávio Bolsonaro e mais 16 pessoas, de outubro de 2020. O guia mostra o que o MP afirma, as provas que ele aponta e o que aconteceu com o caso depois.</p>
+      <p class="facts">290 páginas e 280 pontos marcados</p>
+      <a class="btn" href="denuncia/">Abrir o guia da denúncia</a>
+    </article>
+
+    <article class="guide">
+      <a class="shot" href="suspeicao/" tabindex="-1" aria-hidden="true">
+        <img src="inicio/suspeicao.jpg" width="961" height="601" alt="">
+        <span class="pg">acórdão do STF, página 1</span>
+      </a>
+      <h2><a href="suspeicao/">Por que o STF declarou Moro parcial</a></h2>
+      <p>A decisão do Supremo que anulou o processo do triplex de Lula por parcialidade de Sergio Moro. Inclui a decisão de Fachin que anulou as condenações de Curitiba e a do Comitê de Direitos Humanos da ONU.</p>
+      <p class="facts">3 documentos, 514 páginas e 132 pontos marcados</p>
+      <a class="btn" href="suspeicao/">Abrir o guia da suspeição</a>
+    </article>
+  </section>
+
+  <section class="how" aria-labelledby="como">
+    <h2 id="como">Como ler os guias</h2>
+    <ul>
+      <li><span class="tag t-doc">documentado</span> está no documento, com data, valor, decisão ou registro, e você confere na página.</li>
+      <li><span class="tag t-all">alegado</span> é uma afirmação, como a acusação do Ministério Público ou o argumento de um ministro, que não foi confirmada por decisão.</li>
+      <li><span class="tag t-int">interpretação</span> é uma leitura que liga fatos.</li>
     </ul>
-  </section>
-
-  <section id="entenda" class="block">
-    <h2>Entenda em 2 minutos</h2>
-    <div id="stories" class="stories"></div>
-  </section>
-
-  <section id="numeros" class="block">
-    <h2>Os números da denúncia</h2>
-    <div id="numbers" class="numbers"></div>
-    <h3 class="sub">Os 12 assessores citados</h3>
-    <p class="muted">Valores segundo a denúncia (p. 260). “Desviado” é tudo o que a Assembleia pagou ao assessor (o MP trata como desvio); “estimado” e “comprovado” são a parte que, segundo o MP, foi parar no esquema.</p>
-    <div id="assessores" class="table-wrap"></div>
-  </section>
-
-  <section id="cronologia" class="block">
-    <h2>Cronologia</h2>
-    <p class="muted">Do primeiro cargo, em 2007, até a denúncia, em 2020. Toque em “Ver na página” para abrir o documento.</p>
-    <div class="filters" id="tlFilters"></div>
-    <ol id="timeline" class="timeline"></ol>
-  </section>
-
-  <section id="temas" class="block">
-    <h2>Temas de pesquisa</h2>
-    <p class="muted">Escolha um tema. O guia leva você pelos pontos, um a um, e vai marcando cada trecho no documento.</p>
-    <div id="themes" class="themes"></div>
-  </section>
-
-  <section id="roteiro" class="block">
-    <h2>Roteiro de Tudo</h2>
-    <p class="muted">Todos os pontos relevantes que encontramos, inclusive os menores. Cada item tem página e etiqueta. Use os filtros ou a busca.</p>
-    <div class="filters" id="rtFilters"></div>
-    <div class="rt-search"><label class="sr" for="rtq">Filtrar o roteiro</label><input id="rtq" type="search" placeholder="Filtrar o roteiro (ex.: dinheiro vivo, apartamento)"></div>
-    <p id="rtCount" class="muted" aria-live="polite"></p>
-    <ol id="roteiroList" class="roteiro"></ol>
-  </section>
-
-  <section id="extras" class="block">
-    <h2>Fatos extras, fora da denúncia</h2>
-    <p class="muted">Nada aqui está na denúncia. Cada item vem de fonte pública, com link. Onde há decisão judicial ou negativa dos envolvidos, isso aparece junto.</p>
-    <div id="extrasList" class="extras"></div>
-  </section>
-
-  <section id="desfecho" class="block">
-    <h2>O que aconteceu depois</h2>
-    <ol id="outcome" class="timeline compact"></ol>
-  </section>
-
-  <section id="glossario" class="block">
-    <h2>Glossário</h2>
-    <dl id="glossary" class="glossary"></dl>
-  </section>
-
-  <section id="sobre" class="block about">
-    <h2>Sobre este guia</h2>
-    <div id="about"></div>
+    <p>Qualquer ponto, tema ou sequência de pontos pode ser enviado pelo WhatsApp, pelo Instagram e por outras redes, com o link para o trecho marcado.</p>
   </section>
 
   <footer class="foot">
-    <p>Guia independente, sem vínculo com partidos, campanhas ou órgãos públicos. O documento original é público; esta cópia teve dados pessoais (CPF, RG, números de conta, endereços) cobertos. Nada neste site coleta dados de quem visita.</p>
+    <p>Guias independentes, sem vínculo com partidos, campanhas ou órgãos públicos. Os documentos são públicos; nas cópias deste site, dados pessoais foram cobertos. Nada aqui coleta dados de quem visita.</p>
   </footer>
 </main>
-
-<aside class="viewer" id="viewer" aria-label="Visualizador do documento" aria-hidden="true">
-  <div class="v-head">
-    <button class="icon" id="vClose" aria-label="Fechar documento">Fechar</button>
-    <div class="v-nav">
-      <button class="icon" id="vPrev" aria-label="Página anterior">‹</button>
-      <label class="sr" for="vPage">Número da página</label>
-      <input id="vPage" type="number" min="1" max="290" inputmode="numeric">
-      <span class="v-of">de 290</span>
-      <button class="icon" id="vNext" aria-label="Próxima página">›</button>
-    </div>
-    <div class="v-tools">
-      <button id="vSpread" aria-pressed="false" title="Mostrar uma ou duas páginas lado a lado">1 página</button>
-      <button id="vShare" title="Compartilhar esta página ou este ponto">Compartilhar</button>
-      <button id="vZoomOut" aria-label="Diminuir">−</button>
-      <button id="vZoomIn" aria-label="Aumentar">+</button>
-    </div>
-  </div>
-  <div class="v-guide" id="vGuide" hidden>
-    <div class="v-guide-top">
-      <span id="vGuideStep" class="v-step"></span>
-      <span id="vGuideTag"></span>
-    </div>
-    <p id="vGuideText"></p>
-    <div class="v-guide-nav">
-      <button id="gPrev">Ponto anterior</button>
-      <div id="vRefs" class="refs"></div>
-      <button id="gNext" class="primary">Próximo ponto</button>
-    </div>
-  </div>
-  <div class="v-stage" id="vStage" tabindex="0">
-    <div class="v-pages" id="vPages"></div>
-    <p class="v-status" id="vStatus" role="status"></p>
-  </div>
-</aside>
-</div>
-
-<dialog id="searchDlg" class="dlg">
-  <form method="dialog" class="dlg-head"><h2 id="sTitle">Resultados da busca</h2><button>Fechar</button></form>
-  <p id="sInfo" class="muted" aria-live="polite"></p>
-  <ul id="sList" class="sresults"></ul>
-</dialog>
-
-<dialog id="argDlg" class="dlg">
-  <form method="dialog" class="dlg-head"><h2 id="argHead">Meu argumento</h2><button>Fechar</button></form>
-  <div id="argEdit" class="arg-edit">
-    <label class="sr" for="argTitle">Título do argumento</label>
-    <input id="argTitle" type="text" maxlength="90" placeholder="Título do argumento (ex.: O caminho do dinheiro vivo)" autocomplete="off">
-  </div>
-  <p id="argNote" class="muted arg-note"></p>
-  <ol id="argList" class="arg-list"></ol>
-  <div class="arg-actions" id="argActions"></div>
-</dialog>
-<dialog id="shareDlg" class="dlg share-dlg" aria-labelledby="shTitle">
-  <form method="dialog" class="dlg-head"><h2 id="shTitle">Compartilhar</h2><button>Fechar</button></form>
-  <p class="sh-what" id="shWhat"></p>
-  <h3 class="sh-h">Enviar o link</h3>
-  <div class="sh-grid" id="shLinks"></div>
-  <div class="sh-row">
-    <button class="btn" id="shCopyLink">Copiar link</button>
-    <button class="btn" id="shCopyText">Copiar texto</button>
-    <button class="btn" id="shNative" hidden>Outros apps</button>
-  </div>
-  <h3 class="sh-h">Imagem para Instagram, TikTok e Stories</h3>
-  <p class="fine sh-note">Essas redes não abrem links vindos de sites. A imagem leva o ponto, o trecho marcado no documento e um QR code com o link.</p>
-  <div class="sh-fmt" id="shFmt" role="group" aria-label="Formato da imagem">
-    <button class="chip on" data-fmt="story" aria-pressed="true">Stories (9:16)</button>
-    <button class="chip" data-fmt="feed" aria-pressed="false">Feed (4:5)</button>
-  </div>
-  <button class="btn primary sh-make" id="shMake">Criar imagem</button>
-  <figure class="sh-prev" id="shPrev" hidden><img id="shImg" alt=""></figure>
-  <div class="sh-row" id="shImgActions" hidden>
-    <button class="btn primary" id="shSendImg" hidden>Enviar imagem</button>
-    <button class="btn" id="shSave">Baixar imagem</button>
-  </div>
-  <p class="fine" id="shHint" aria-live="polite"></p>
-</dialog>
-<button class="arg-tray" id="argTray" hidden aria-haspopup="dialog"></button>
-<div class="toast" id="toast" role="status" aria-live="polite"></div>
-
-<script type="module" src="assets/app.js"></script>
-<noscript><p style="padding:2rem">Este guia precisa de JavaScript para mostrar o documento. O PDF está dividido na pasta <code>pdf/</code>.</p></noscript>
 </body>
 </html>

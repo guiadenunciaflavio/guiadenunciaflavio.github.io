@@ -2,5 +2,7 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
   X-Frame-Options: DENY
-/pdf/*
+/denuncia/pdf/*
+  Cache-Control: public, max-age=86400
+/suspeicao/pdf/*
   Cache-Control: public, max-age=86400
