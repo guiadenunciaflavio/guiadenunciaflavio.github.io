@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Guias de leitura: documentos públicos, página por página</title>
-<meta name="description" content="Dois guias para ler do zero documentos públicos: a denúncia do MPRJ contra Flávio Bolsonaro no caso das rachadinhas e a decisão do STF que declarou Sergio Moro parcial no caso de Lula. Cada ponto abre a página exata, com o trecho marcado.">
+<meta name="description" content="Guias para ler do zero documentos públicos: a denúncia do MPRJ contra Flávio Bolsonaro no caso das rachadinhas, a decisão do STF que declarou Sergio Moro parcial no caso de Lula e os atos da Câmara sobre o cargo de Flávio em Brasília. Cada ponto abre o documento, com o trecho marcado.">
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Guias de leitura">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Documentos públicos, página por página">
-<meta property="og:description" content="A denúncia das rachadinhas e a decisão do STF que declarou Moro parcial. Cada ponto abre a página exata do documento original, com o trecho marcado.">
+<meta property="og:description" content="A denúncia das rachadinhas, a decisão do STF que declarou Moro parcial e o cargo de Flávio na Câmara. Cada ponto abre o documento original, com o trecho marcado.">
 <meta property="og:url" content="https://guiadenunciaflavio.github.io/">
 <meta property="og:image" content="https://guiadenunciaflavio.github.io/inicio/og.jpg">
 <meta property="og:image:width" content="1200">
@@ -28,19 +28,19 @@
   --mark:#ffe14d;--link:#0b4fa8;--focus:#0b4fa8;
   --serif:Charter,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
   --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  --tag-doc:#0b6b5c;--tag-doc-bg:#dff3ee;--tag-all:#9a4a00;--tag-all-bg:#fdebd3;--tag-int:#5b3ba8;--tag-int-bg:#ebe5f8;
+  --tag-doc:#0b6b5c;--tag-doc-bg:#dff3ee;--tag-all:#9a4a00;--tag-all-bg:#fdebd3;--tag-int:#5b3ba8;--tag-int-bg:#ebe5f8;--tag-rep:#1d4f91;--tag-rep-bg:#e2ebf8;
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
     --paper:#0f1520;--card:#18212f;--ink:#eef2f7;--ink-2:#aeb9c9;--line:#2a3547;--link:#8cb8ff;--focus:#8cb8ff;
-    --tag-doc:#7fd9c4;--tag-doc-bg:#123a33;--tag-all:#ffc58a;--tag-all-bg:#3d2a14;--tag-int:#c9b6ff;--tag-int-bg:#2c2347;
+    --tag-doc:#7fd9c4;--tag-doc-bg:#123a33;--tag-all:#ffc58a;--tag-all-bg:#3d2a14;--tag-int:#c9b6ff;--tag-int-bg:#2c2347;--tag-rep:#9cc2ff;--tag-rep-bg:#182a45;
     color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
   --paper:#0f1520;--card:#18212f;--ink:#eef2f7;--ink-2:#aeb9c9;--line:#2a3547;--link:#8cb8ff;--focus:#8cb8ff;
-  --tag-doc:#7fd9c4;--tag-doc-bg:#123a33;--tag-all:#ffc58a;--tag-all-bg:#3d2a14;--tag-int:#c9b6ff;--tag-int-bg:#2c2347;
+  --tag-doc:#7fd9c4;--tag-doc-bg:#123a33;--tag-all:#ffc58a;--tag-all-bg:#3d2a14;--tag-int:#c9b6ff;--tag-int-bg:#2c2347;--tag-rep:#9cc2ff;--tag-rep-bg:#182a45;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -65,7 +65,8 @@ h1 .mk{background:linear-gradient(transparent 58%,var(--mark) 58% 92%,transparen
 .lead{font-family:var(--serif);font-size:1.2rem;line-height:1.55;margin:0;max-width:40rem}
 
 .guides{display:grid;grid-template-columns:1fr;gap:1.4rem;padding-bottom:2.6rem}
-@media (min-width:860px){.guides{grid-template-columns:1fr 1fr;gap:1.8rem}}
+@media (min-width:700px){.guides{grid-template-columns:1fr 1fr;gap:1.6rem}}
+@media (min-width:1040px){.guides{grid-template-columns:repeat(3,1fr);gap:1.4rem}.guide h2{font-size:1.45rem}}
 .guide{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem 1rem 1.3rem;display:flex;flex-direction:column}
 .shot{position:relative;display:block;border-radius:9px;overflow:hidden;border:1px solid var(--line);background:#fff;margin-bottom:1.1rem}
 .shot img{display:block;width:100%;height:auto}
@@ -91,6 +92,7 @@ h1 .mk{background:linear-gradient(transparent 58%,var(--mark) 58% 92%,transparen
 .t-doc{color:var(--tag-doc);background:var(--tag-doc-bg)}
 .t-all{color:var(--tag-all);background:var(--tag-all-bg)}
 .t-int{color:var(--tag-int);background:var(--tag-int-bg)}
+.t-rep{color:var(--tag-rep);background:var(--tag-rep-bg)}
 
 .foot{border-top:1px solid var(--line);margin-top:1.5rem;padding:1.2rem 0 2.4rem;font-size:.9rem;color:var(--ink-2)}
 .foot p{margin:0;max-width:46rem}
@@ -107,7 +109,7 @@ h1 .mk{background:linear-gradient(transparent 58%,var(--mark) 58% 92%,transparen
 <main class="wrap" id="conteudo">
   <section class="intro">
     <h1><span class="mk">Documentos públicos, página por página</span></h1>
-    <p class="lead">Dois guias para ler do zero documentos oficiais de casos que dividem o país. Cada ponto abre a página exata do original, com o trecho marcado, e diz se aquilo é um fato registrado ou uma afirmação.</p>
+    <p class="lead">Guias para ler do zero documentos oficiais de casos que dividem o país. Cada ponto abre a página exata do original, com o trecho marcado, e diz se aquilo é um fato registrado ou uma afirmação.</p>
   </section>
 
   <section class="guides" id="guias" aria-label="Escolha um guia">
@@ -132,11 +134,23 @@ h1 .mk{background:linear-gradient(transparent 58%,var(--mark) 58% 92%,transparen
       <p class="facts">3 documentos, 514 páginas e 132 pontos marcados</p>
       <a class="btn" href="suspeicao/">Abrir o guia da suspeição</a>
     </article>
+
+    <article class="guide">
+      <a class="shot" href="cargo-na-camara/" tabindex="-1" aria-hidden="true">
+        <img src="inicio/cargo.jpg" width="961" height="601" alt="">
+        <span class="pg">Boletim da Câmara, p. 3384</span>
+      </a>
+      <h2><a href="cargo-na-camara/">O cargo de Flávio na Câmara</a></h2>
+      <p>De 2000 a 2002, Flávio Bolsonaro teve um cargo na Câmara, em Brasília. No mesmo período, segundo o próprio currículo, ele cursava Direito e estagiava no Rio. A página mostra os atos da Câmara, o currículo e o diploma, com o trecho marcado.</p>
+      <p class="facts">7 documentos e 5 respostas prontas</p>
+      <a class="btn" href="cargo-na-camara/">Abrir a página do cargo</a>
+    </article>
   </section>
 
   <section class="how" aria-labelledby="como">
     <h2 id="como">Como usar os guias</h2>
-    <p>Os dois guias funcionam do mesmo jeito. Na primeira visita, um tutorial de um minuto mostra cada parte. Ele também abre em “Como usar”, dentro de cada guia, ou por aqui: <a href="denuncia/#como-usar">tutorial do guia da denúncia</a> e <a href="suspeicao/#como-usar">tutorial do guia da suspeição</a>.</p>
+    <p>Os guias da denúncia e da suspeição funcionam do mesmo jeito. Na primeira visita, um tutorial de um minuto mostra cada parte. Ele também abre em “Como usar”, dentro de cada guia, ou por aqui: <a href="denuncia/#como-usar">tutorial do guia da denúncia</a> e <a href="suspeicao/#como-usar">tutorial do guia da suspeição</a>.</p>
+    <p>A <a href="cargo-na-camara/">página do cargo na Câmara</a> é mais curta: mostra cada documento com o trecho marcado e traz respostas prontas para copiar ou compartilhar.</p>
     <ul class="feats">
       <li><b>Busca.</b> Digite um nome ou uma palavra. Cada resultado abre a página com a palavra marcada.</li>
       <li><b>Temas.</b> Escolha um assunto, e o guia leva você pelos pontos, um a um, com o trecho marcado em amarelo no documento.</li>
@@ -148,6 +162,7 @@ h1 .mk{background:linear-gradient(transparent 58%,var(--mark) 58% 92%,transparen
     <ul>
       <li><span class="tag t-doc">documentado</span> está no documento, com data, valor, decisão ou registro, e você confere na página.</li>
       <li><span class="tag t-all">alegado</span> é uma afirmação, como a acusação do Ministério Público ou o argumento de um ministro, que não foi confirmada por decisão.</li>
+      <li><span class="tag t-rep">reportagem</span> foi apurado por um veículo de imprensa, a partir de documentos que não são públicos ou de entrevistas, e traz o link.</li>
       <li><span class="tag t-int">interpretação</span> é uma leitura que liga fatos.</li>
     </ul>
   </section>

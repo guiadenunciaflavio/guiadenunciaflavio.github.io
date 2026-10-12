@@ -1,0 +1,428 @@
+{
+ "nomeacao": {
+  "groups": [
+   {
+    "label": "Boletim Administrativo da Câmara nº 246, de 27/12/2000, página 3384",
+    "segs": [
+     {
+      "src": "docs/nomeacao-1.webp",
+      "w": 1360,
+      "h": 73,
+      "hl": []
+     },
+     {
+      "src": "docs/nomeacao-2.webp",
+      "w": 1360,
+      "h": 277,
+      "hl": [
+       [
+        0.1585,
+        0.2672,
+        0.8054,
+        0.1434
+       ],
+       [
+        0.1552,
+        0.3872,
+        0.8086,
+        0.1434
+       ],
+       [
+        0.1552,
+        0.5072,
+        0.8086,
+        0.1434
+       ],
+       [
+        0.1552,
+        0.625,
+        0.8086,
+        0.1434
+       ],
+       [
+        0.1552,
+        0.745,
+        0.8086,
+        0.1434
+       ],
+       [
+        0.1552,
+        0.865,
+        0.172,
+        0.135
+       ]
+      ]
+     },
+     {
+      "src": "docs/nomeacao-3.webp",
+      "w": 1360,
+      "h": 61,
+      "hl": []
+     }
+    ]
+   }
+  ]
+ },
+ "exoneracao-ana": {
+  "groups": [
+   {
+    "label": "Boletim Administrativo da Câmara nº 246, de 27/12/2000, página 3380",
+    "segs": [
+     {
+      "src": "docs/exoneracao-ana-1.webp",
+      "w": 1360,
+      "h": 73,
+      "hl": []
+     },
+     {
+      "src": "docs/exoneracao-ana-2.webp",
+      "w": 1360,
+      "h": 53,
+      "hl": []
+     },
+     {
+      "src": "docs/exoneracao-ana-3.webp",
+      "w": 1360,
+      "h": 265,
+      "hl": [
+       [
+        0.1585,
+        0.3054,
+        0.8054,
+        0.1505
+       ],
+       [
+        0.1552,
+        0.4409,
+        0.8086,
+        0.1505
+       ],
+       [
+        0.1552,
+        0.5763,
+        0.8086,
+        0.1505
+       ],
+       [
+        0.1552,
+        0.7094,
+        0.8086,
+        0.1505
+       ],
+       [
+        0.1552,
+        0.8448,
+        0.4484,
+        0.1505
+       ]
+      ]
+     },
+     {
+      "src": "docs/exoneracao-ana-4.webp",
+      "w": 1360,
+      "h": 61,
+      "hl": []
+     }
+    ]
+   }
+  ]
+ },
+ "nomeacao-ana": {
+  "groups": [
+   {
+    "label": "Boletim Administrativo da Câmara nº 215, de 13/11/1998, página 3197",
+    "segs": [
+     {
+      "src": "docs/nomeacao-ana-1.webp",
+      "w": 1360,
+      "h": 109,
+      "hl": []
+     },
+     {
+      "src": "docs/nomeacao-ana-2.webp",
+      "w": 1360,
+      "h": 328,
+      "hl": []
+     },
+     {
+      "src": "docs/nomeacao-ana-3.webp",
+      "w": 1360,
+      "h": 348,
+      "hl": [
+       [
+        0.1818,
+        0.394,
+        0.7868,
+        0.1189
+       ],
+       [
+        0.1818,
+        0.4896,
+        0.7868,
+        0.1189
+       ],
+       [
+        0.1818,
+        0.5852,
+        0.7868,
+        0.1189
+       ],
+       [
+        0.1818,
+        0.679,
+        0.7868,
+        0.1189
+       ],
+       [
+        0.1818,
+        0.7746,
+        0.7863,
+        0.1189
+       ],
+       [
+        0.1818,
+        0.8702,
+        0.4088,
+        0.1189
+       ]
+      ]
+     },
+     {
+      "src": "docs/nomeacao-ana-4.webp",
+      "w": 1360,
+      "h": 82,
+      "hl": []
+     }
+    ]
+   }
+  ]
+ },
+ "atribuicoes": {
+  "groups": [
+   {
+    "label": "Diário da Câmara dos Deputados, suplemento de 6/11/1996, capa",
+    "segs": [
+     {
+      "src": "docs/atribuicoes-1.webp",
+      "w": 1360,
+      "h": 297,
+      "hl": []
+     }
+    ]
+   },
+   {
+    "label": "Página 69: o Ato da Mesa nº 45, de 1996",
+    "segs": [
+     {
+      "src": "docs/atribuicoes-2.webp",
+      "w": 1360,
+      "h": 409,
+      "hl": []
+     }
+    ]
+   },
+   {
+    "label": "Página 75: as atribuições do cargo",
+    "segs": [
+     {
+      "src": "docs/atribuicoes-3.webp",
+      "w": 1360,
+      "h": 62,
+      "hl": []
+     },
+     {
+      "src": "docs/atribuicoes-4.webp",
+      "w": 1360,
+      "h": 1137,
+      "hl": [
+       [
+        0.161,
+        0.1303,
+        0.5779,
+        0.0407
+       ],
+       [
+        0.161,
+        0.1707,
+        0.7717,
+        0.0407
+       ],
+       [
+        0.0161,
+        0.2066,
+        0.8002,
+        0.0453
+       ],
+       [
+        0.1562,
+        0.2505,
+        0.776,
+        0.0407
+       ],
+       [
+        0.0161,
+        0.2909,
+        0.1316,
+        0.0378
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Página 80: onde o cargo existe",
+    "segs": [
+     {
+      "src": "docs/atribuicoes-5.webp",
+      "w": 1360,
+      "h": 58,
+      "hl": []
+     },
+     {
+      "src": "docs/atribuicoes-6.webp",
+      "w": 1360,
+      "h": 146,
+      "hl": [
+       [
+        0.0635,
+        0.0326,
+        0.6025,
+        0.3081
+       ],
+       [
+        0.0635,
+        0.3704,
+        0.5249,
+        0.3081
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "alerj": {
+  "groups": [
+   {
+    "label": "Cópia do Wayback Machine, de 30/1/2019",
+    "segs": [
+     {
+      "src": "docs/alerj-1.webp",
+      "w": 1360,
+      "h": 49,
+      "hl": []
+     }
+    ]
+   },
+   {
+    "label": "Perfil de Flávio Bolsonaro no site da Alerj",
+    "segs": [
+     {
+      "src": "docs/alerj-2.webp",
+      "w": 1360,
+      "h": 406,
+      "hl": []
+     },
+     {
+      "src": "docs/alerj-3.webp",
+      "w": 1360,
+      "h": 994,
+      "hl": [
+       [
+        0.0218,
+        0.6769,
+        0.6714,
+        0.0463
+       ],
+       [
+        0.0218,
+        0.9089,
+        0.7369,
+        0.0463
+       ],
+       [
+        0.0164,
+        0.9486,
+        0.3059,
+        0.0463
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "diploma": {
+  "groups": [
+   {
+    "label": "Diploma de Direito da Universidade Candido Mendes, publicado por Flávio Bolsonaro em 12/8/2026",
+    "segs": [
+     {
+      "src": "docs/diploma-1.webp",
+      "w": 975,
+      "h": 330,
+      "hl": [
+       [
+        0.2697,
+        0.5697,
+        0.0903,
+        0.0879
+       ],
+       [
+        0.0636,
+        0.6788,
+        0.2431,
+        0.0909
+       ],
+       [
+        0.44,
+        0.6758,
+        0.0923,
+        0.0909
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "senado": {
+  "groups": [
+   {
+    "label": "Cópia do Wayback Machine, de 3/2/2019",
+    "segs": [
+     {
+      "src": "docs/senado-1.webp",
+      "w": 1360,
+      "h": 45,
+      "hl": []
+     }
+    ]
+   },
+   {
+    "label": "Senado Notícias, perfil publicado em 18/1/2019",
+    "segs": [
+     {
+      "src": "docs/senado-2.webp",
+      "w": 1360,
+      "h": 423,
+      "hl": [
+       [
+        0.5769,
+        0.6101,
+        0.3801,
+        0.0792
+       ],
+       [
+        0.0069,
+        0.7133,
+        0.1725,
+        0.0792
+       ]
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
