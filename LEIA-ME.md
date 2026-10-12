@@ -7,6 +7,8 @@ Site estático com dois guias de leitura de documentos públicos. Sem cookies, s
 - `suspeicao/`: guia do acórdão do STF que declarou Sergio Moro parcial no caso de Lula (HC 164.493), com a decisão de Fachin no HC 193.726 e a do Comitê de Direitos Humanos da ONU. Detalhes em `suspeicao/LEIA-ME.md`.
 - `ponto/` e `tema/`: endereços antigos do guia da denúncia, de quando ele ficava na raiz. Mostram a mesma prévia e levam ao endereço novo em `denuncia/`. A página inicial também leva os links antigos `#a=`, `#tema=` e `#p=` para `denuncia/`.
 
+Os dois guias têm um tutorial "Como usar", que abre sozinho na primeira visita e depois pelo botão "Como usar" ou pelo endereço `#como-usar` (por exemplo, `denuncia/#como-usar`). A página inicial resume as funções e leva aos dois tutoriais.
+
 ## Testar no computador
     python3 -m http.server 8000     # nesta pasta; abra http://localhost:8000
 

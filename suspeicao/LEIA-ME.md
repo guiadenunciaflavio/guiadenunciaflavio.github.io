@@ -18,6 +18,12 @@ Guia de leitura do acórdão do STF no Habeas Corpus 164.493 (Segunda Turma, mar
 - alegado: o que um ministro, um membro do Comitê, uma das partes ou as mensagens hackeadas afirmam, sem ser a decisão.
 - interpretação: leitura que liga fatos (hoje nenhum ponto usa).
 
+## Tutorial "Como usar"
+- `assets/tour.js` (o mesmo arquivo nos dois guias) destaca cada parte do guia e explica para que serve: busca, mapa das páginas, etiquetas, Entenda, temas, o documento aberto com o trecho marcado, Roteiro de Tudo, "+ Argumento", Compartilhar e o menu.
+- Abre sozinho na primeira visita. Quem chega por um link de ponto, tema ou página (`#a=`, `#tema=`, `#p=`, `#d=`) vê só um convite no canto, para não tapar o que veio ver.
+- Depois abre por "Como usar" (no início da página, no menu e no rodapé) ou pelo endereço `#como-usar`.
+- Guarda no navegador só que o tutorial já foi visto (`guia.tour.denuncia` ou `guia.tour.suspeicao`). O texto de cada guia fica no objeto `TXT`, conforme `<body data-guia>`.
+
 ## Compartilhar
 - Cada ponto tem "+ Argumento" e "Compartilhar"; cada tema tem "Compartilhar tema"; no visualizador, "Compartilhar" envia o ponto aberto ou a página.
 - Os textos seguem a voz do documento de cada ponto ("Segundo o acórdão do STF que declarou Moro parcial", "Segundo a decisão do ministro Edson Fachin…", "Segundo a decisão do Comitê de Direitos Humanos da ONU…"), com o peso de cada ponto e as páginas, e terminam com a linha "Base: N fatos registrados no acórdão e N afirmações de ministros ou das mensagens".
@@ -27,6 +33,7 @@ Guia de leitura do acórdão do STF no Habeas Corpus 164.493 (Segunda Turma, mar
 ### Endereços
 - `ponto/ID/` e `tema/ID/`: páginas com prévia própria para WhatsApp, Facebook, X etc.; redirecionam para `#a=ID` e `#tema=ID`.
 - `#a=id1.id2&t=Título`: argumento montado à mão. `#p=N`: página do acórdão. `#d=fachin&p=N` e `#d=onu&p=N`: páginas das outras decisões.
+- `#como-usar`: abre o tutorial.
 
 ### Regerar as prévias
 Depois de mudar `data/content.json`, rode `python3 ferramentas/gerar_previas.py https://ENDEREÇO-DO-SITE/` (Python com Playwright e Chromium). Ele recria `og/`, `ponto/` e `tema/` e atualiza as tags `og:` do `index.html`.

@@ -23,6 +23,12 @@ Pasta pronta, 100% estática (HTML + JS + PDF em 12 partes de ~25 páginas). Sem
 - `data/content.json` (todo o conteúdo editorial), `data/search.json`, `data/boxes/` (busca e destaque)
 - `pdf/` (documento em partes)
 
+## Tutorial "Como usar"
+- `assets/tour.js` (o mesmo arquivo nos dois guias) destaca cada parte do guia e explica para que serve: busca, mapa das páginas, etiquetas, Entenda, temas, o documento aberto com o trecho marcado, Roteiro de Tudo, "+ Argumento", Compartilhar e o menu.
+- Abre sozinho na primeira visita. Quem chega por um link de ponto, tema ou página (`#a=`, `#tema=`, `#p=`, `#d=`) vê só um convite no canto, para não tapar o que veio ver.
+- Depois abre por "Como usar" (no início da página, no menu e no rodapé) ou pelo endereço `#como-usar`.
+- Guarda no navegador só que o tutorial já foi visto (`guia.tour.denuncia` ou `guia.tour.suspeicao`). O texto de cada guia fica no objeto `TXT`, conforme `<body data-guia>`.
+
 ## Compartilhar
 - Cada ponto do Roteiro e da Cronologia tem "+ Argumento" e "Compartilhar". Cada tema tem "Compartilhar tema". No visualizador, "Compartilhar" envia o ponto do passo a passo ou, fora dele, a página aberta.
 - "Meu argumento" (canto inferior esquerdo) junta pontos: dá para ordenar, dar título e compartilhar.
@@ -34,6 +40,7 @@ Pasta pronta, 100% estática (HTML + JS + PDF em 12 partes de ~25 páginas). Sem
 - `/ponto/ID/` e `/tema/ID/`: páginas pequenas com prévia própria (título, texto e imagem) para WhatsApp, Facebook, X etc. Elas redirecionam para `/#a=ID` e `/#tema=ID`.
 - `/#a=id1.id2&t=Título`: argumento montado à mão (a prévia é a geral do guia, porque o site é estático).
 - `/#p=N`: página do documento.
+- `#como-usar`: abre o tutorial.
 - Os pontos da Cronologia usam ids `cr-NN` pela ordem atual. Se a ordem da cronologia mudar, links antigos apontam para outros pontos.
 
 ### Regerar as prévias

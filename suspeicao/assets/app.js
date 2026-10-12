@@ -595,5 +595,7 @@ async function init() {
   $('#rtq').addEventListener('input', stamp); document.addEventListener('change', e => { if (e.target.id === 'rtTheme') stamp(); });
   refreshArgUI();
   if (!openFromHash()) { const m = location.hash.match(/^#(?:d=(\w+)&)?p=(\d+)/); if (m) openPage(+m[2], { doc: m[1] || 'acordao' }); }
+  // tutorial "Como usar": carregado à parte, para que uma falha nele não derrube o guia
+  import('./tour.js').then(t => t.initTour()).catch(() => { });
 }
 init().catch(err => { document.getElementById('conteudo').insertAdjacentHTML('afterbegin', `<p style="padding:1rem;background:#fdebd3;color:#5a2b00">Não foi possível carregar o guia (${esc(err.message)}). Se você abriu o arquivo direto do computador, publique a pasta num servidor web ou rode <code>python3 -m http.server</code> dentro dela.</p>`); console.error(err); });
