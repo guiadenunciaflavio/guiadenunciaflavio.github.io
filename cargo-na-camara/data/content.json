@@ -1,0 +1,3464 @@
+{
+ "docs": [
+  {
+   "id": "b2000",
+   "color": "#2f6fa3",
+   "chip": "Boletim 2000",
+   "label": "Boletim Administrativo da Câmara nº 246, de 27/12/2000",
+   "short": "boletim da Câmara de 27/12/2000",
+   "what": "o boletim da Câmara de 27/12/2000",
+   "em": "no boletim da Câmara de 27/12/2000",
+   "de": "do boletim da Câmara de 27/12/2000",
+   "voz": "Segundo o boletim da Câmara de 27/12/2000",
+   "sujeito": "o boletim da Câmara de 27/12/2000",
+   "pl": false,
+   "sobre": "Boletim Administrativo da Câmara dos Deputados de 27/12/2000, com a nomeação de Flávio Bolsonaro e a exoneração de Ana Cristina Siqueira Valle.",
+   "when": "Câmara, dezembro de 2000",
+   "source": "Boletim Administrativo da Câmara dos Deputados nº 246, de 27/12/2000",
+   "src": "boletim da Câmara de 27/12/2000",
+   "origem": "https://www.camara.leg.br/boletimadm/2000/Ba20001227.pdf",
+   "n": 26,
+   "labels": {
+    "1": "3373",
+    "2": "3374",
+    "3": "3375",
+    "4": "3376",
+    "5": "3377",
+    "6": "3378",
+    "7": "3379",
+    "8": "3380",
+    "9": "3381",
+    "10": "3382",
+    "11": "3383",
+    "12": "3384",
+    "13": "3385",
+    "14": "3386",
+    "15": "3387",
+    "16": "3388",
+    "17": "3389",
+    "18": "3390",
+    "19": "3391",
+    "20": "3392",
+    "21": "3393",
+    "22": "3394",
+    "23": "3395",
+    "24": "3396",
+    "25": "3397",
+    "26": "3398"
+   },
+   "sizes": [
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ]
+   ],
+   "aleg": "afirmação que está no documento, sem ser registro oficial",
+   "alegCurto": "não é registro oficial",
+   "alegItem": "afirmação, não registro oficial",
+   "aleg1": "afirmação",
+   "alegN": "afirmações"
+  },
+  {
+   "id": "b1998",
+   "color": "#6b8fb8",
+   "chip": "Boletim 1998",
+   "label": "Boletim Administrativo da Câmara nº 215, de 13/11/1998",
+   "short": "boletim da Câmara de 13/11/1998",
+   "what": "o boletim da Câmara de 13/11/1998",
+   "em": "no boletim da Câmara de 13/11/1998",
+   "de": "do boletim da Câmara de 13/11/1998",
+   "voz": "Segundo o boletim da Câmara de 13/11/1998",
+   "sujeito": "o boletim da Câmara de 13/11/1998",
+   "pl": false,
+   "sobre": "Boletim Administrativo da Câmara dos Deputados de 13/11/1998, com a nomeação de Ana Cristina Siqueira Valle.",
+   "when": "Câmara, novembro de 1998",
+   "source": "Boletim Administrativo da Câmara dos Deputados nº 215, de 13/11/1998",
+   "src": "boletim da Câmara de 13/11/1998",
+   "origem": "https://www.camara.leg.br/boletimadm/1998/Ba19981113.pdf",
+   "n": 7,
+   "labels": {
+    "1": "3197",
+    "2": "3198",
+    "3": "3199",
+    "4": "3200",
+    "5": "3201",
+    "6": "3202",
+    "7": "3203"
+   },
+   "sizes": [
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ]
+   ],
+   "aleg": "afirmação que está no documento, sem ser registro oficial",
+   "alegCurto": "não é registro oficial",
+   "alegItem": "afirmação, não registro oficial",
+   "aleg1": "afirmação",
+   "alegN": "afirmações"
+  },
+  {
+   "id": "b2002",
+   "color": "#b0781a",
+   "chip": "Boletim 2002",
+   "label": "Boletim Administrativo da Câmara nº 145, de 31/7/2002",
+   "short": "boletim da Câmara de 31/7/2002",
+   "what": "o boletim da Câmara de 31/7/2002",
+   "em": "no boletim da Câmara de 31/7/2002",
+   "de": "do boletim da Câmara de 31/7/2002",
+   "voz": "Segundo o boletim da Câmara de 31/7/2002",
+   "sujeito": "o boletim da Câmara de 31/7/2002",
+   "pl": false,
+   "sobre": "Boletim Administrativo da Câmara dos Deputados de 31/7/2002, com a exoneração de Flávio Bolsonaro, a pedido.",
+   "when": "Câmara, julho de 2002",
+   "source": "Boletim Administrativo da Câmara dos Deputados nº 145, de 31/7/2002",
+   "src": "boletim da Câmara de 31/7/2002",
+   "origem": "https://www.camara.leg.br/boletimadm/2002/Ba20020731.pdf",
+   "n": 17,
+   "labels": {
+    "3": "1877",
+    "4": "1878",
+    "5": "1879",
+    "6": "1880",
+    "7": "1881",
+    "8": "1882",
+    "9": "1883",
+    "10": "1884",
+    "11": "1885",
+    "12": "1886",
+    "13": "1887",
+    "14": "1888",
+    "15": "1889",
+    "16": "1890"
+   },
+   "sizes": [
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ],
+    [
+     595.0,
+     842.0
+    ]
+   ],
+   "aleg": "afirmação que está no documento, sem ser registro oficial",
+   "alegCurto": "não é registro oficial",
+   "alegItem": "afirmação, não registro oficial",
+   "aleg1": "afirmação",
+   "alegN": "afirmações"
+  },
+  {
+   "id": "ato",
+   "color": "#a8452b",
+   "chip": "Ato da Mesa",
+   "label": "Ato da Mesa nº 45, de 1996, no Diário da Câmara de 6/11/1996 (suplemento)",
+   "short": "Diário da Câmara de 6/11/1996",
+   "what": "o Ato da Mesa nº 45, de 1996",
+   "em": "no Ato da Mesa nº 45, de 1996",
+   "de": "do Ato da Mesa nº 45, de 1996",
+   "voz": "Segundo o Ato da Mesa nº 45, de 1996",
+   "sujeito": "o Ato da Mesa nº 45, de 1996",
+   "pl": false,
+   "sobre": "Ato da Mesa nº 45, de 1996, que define as tarefas de cada cargo em comissão da Câmara, publicado no Diário da Câmara de 6/11/1996.",
+   "when": "Câmara, 1996",
+   "source": "Ato da Mesa nº 45, de 17/10/1996, no Diário da Câmara dos Deputados de 6/11/1996 (suplemento)",
+   "src": "Diário da Câmara de 6/11/1996",
+   "origem": "https://imagem.camara.leg.br/Imagem/d/pdf/DCD06NOV1996SUP.pdf",
+   "n": 14,
+   "labels": {
+    "1": "capa",
+    "2": "69",
+    "3": "70",
+    "4": "71",
+    "5": "72",
+    "6": "73",
+    "7": "74",
+    "8": "75",
+    "9": "76",
+    "10": "77",
+    "11": "78",
+    "12": "79",
+    "13": "80",
+    "14": "81"
+   },
+   "sizes": [
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ],
+    [
+     597.0,
+     744.0
+    ]
+   ],
+   "names": {
+    "1": "capa do Diário da Câmara"
+   },
+   "aleg": "afirmação que está no documento, sem ser registro oficial",
+   "alegCurto": "não é registro oficial",
+   "alegItem": "afirmação, não registro oficial",
+   "aleg1": "afirmação",
+   "alegN": "afirmações"
+  },
+  {
+   "id": "alerj",
+   "color": "#5f7a2e",
+   "chip": "Perfil na Alerj",
+   "label": "Perfil de Flávio Bolsonaro no site da Alerj (cópia de 30/1/2019)",
+   "short": "perfil de Flávio na Alerj",
+   "what": "o perfil de Flávio no site da Alerj",
+   "em": "no perfil de Flávio no site da Alerj",
+   "de": "do perfil de Flávio no site da Alerj",
+   "voz": "Segundo o perfil de Flávio no site da Alerj",
+   "sujeito": "o perfil de Flávio no site da Alerj",
+   "pl": false,
+   "sobre": "Perfil oficial de Flávio Bolsonaro no site da Assembleia Legislativa do Rio, como estava em 30/1/2019 (cópia do Wayback Machine).",
+   "when": "Alerj, 2019",
+   "source": "perfil de Flávio Bolsonaro no site da Alerj, cópia do Wayback Machine de 30/1/2019",
+   "src": "perfil de Flávio na Alerj (cópia de 30/1/2019)",
+   "origem": "https://web.archive.org/web/20190130081742/http://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+   "n": 2,
+   "labels": {},
+   "sizes": [
+    [
+     420.0,
+     596.0
+    ],
+    [
+     420.0,
+     596.0
+    ]
+   ],
+   "aleg": "afirmação que está no documento, sem ser registro oficial",
+   "alegCurto": "não é registro oficial",
+   "alegItem": "afirmação, não registro oficial",
+   "aleg1": "afirmação",
+   "alegN": "afirmações"
+  },
+  {
+   "id": "senado",
+   "color": "#7a4fa3",
+   "chip": "Agência Senado",
+   "label": "Agência Senado, “Flávio Bolsonaro (PSL)”, 18/1/2019 (cópia de 3/2/2019)",
+   "short": "texto da Agência Senado",
+   "what": "o texto da Agência Senado de 18/1/2019",
+   "em": "no texto da Agência Senado de 18/1/2019",
+   "de": "do texto da Agência Senado de 18/1/2019",
+   "voz": "Segundo o texto da Agência Senado de 18/1/2019",
+   "sujeito": "o texto da Agência Senado de 18/1/2019",
+   "pl": false,
+   "sobre": "Texto da Agência Senado de 18/1/2019 que apresenta o senador eleito Flávio Bolsonaro (cópia do Wayback Machine de 3/2/2019).",
+   "when": "Senado, 2019",
+   "source": "texto da Agência Senado de 18/1/2019, cópia do Wayback Machine de 3/2/2019",
+   "src": "texto da Agência Senado de 18/1/2019",
+   "origem": "https://web.archive.org/web/20190203071437/https://www12.senado.leg.br/noticias/materias/2019/01/18/flavio-bolsonaro-psl",
+   "n": 1,
+   "labels": {},
+   "sizes": [
+    [
+     596.0,
+     842.0
+    ]
+   ],
+   "aleg": "afirmação que está no documento, sem ser registro oficial",
+   "alegCurto": "não é registro oficial",
+   "alegItem": "afirmação, não registro oficial",
+   "aleg1": "afirmação",
+   "alegN": "afirmações"
+  },
+  {
+   "id": "diplomas",
+   "color": "#3f7f86",
+   "chip": "Diplomas",
+   "label": "Diplomas publicados por Flávio Bolsonaro no X (12/8/2026)",
+   "short": "diplomas publicados por Flávio",
+   "what": "os diplomas publicados por Flávio",
+   "em": "nos diplomas publicados por Flávio",
+   "de": "dos diplomas publicados por Flávio",
+   "voz": "Segundo os diplomas publicados por Flávio",
+   "sujeito": "os diplomas publicados por Flávio",
+   "pl": true,
+   "sobre": "Os três diplomas que Flávio Bolsonaro publicou no X em 12/8/2026: Direito, especialização em Políticas Públicas e MBA.",
+   "when": "publicados em 2026",
+   "source": "diplomas publicados por Flávio Bolsonaro no X em 12/8/2026",
+   "src": "diplomas publicados por Flávio (12/8/2026)",
+   "origem": "https://x.com/FlavioBolsonaro/status/2087721700053889062",
+   "n": 3,
+   "labels": {},
+   "sizes": [
+    [
+     768.0,
+     523.5
+    ],
+    [
+     768.0,
+     551.2
+    ],
+    [
+     768.0,
+     547.5
+    ]
+   ],
+   "names": {
+    "1": "diploma de Direito",
+    "2": "diploma da especialização",
+    "3": "diploma do MBA"
+   },
+   "nopg": true,
+   "aleg": "afirmação que está no documento, sem ser registro oficial",
+   "alegCurto": "não é registro oficial",
+   "alegItem": "afirmação, não registro oficial",
+   "aleg1": "afirmação",
+   "alegN": "afirmações"
+  }
+ ],
+ "themes": [
+  {
+   "id": "nomeacao",
+   "title": "A nomeação",
+   "color": "#2f6fa3",
+   "lay": "Como Flávio entrou no cargo, aos 19 anos, e de quem era o posto antes.",
+   "key": [
+    "nom-flavio",
+    "nom-data",
+    "nom-idade",
+    "nom-ana-sai",
+    "nom-ana-entra"
+   ]
+  },
+  {
+   "id": "tarefas",
+   "title": "O que o cargo exige",
+   "color": "#a8452b",
+   "lay": "As 15 tarefas do assistente técnico de gabinete e onde esse cargo existe.",
+   "key": [
+    "tar-ato",
+    "tar-plenario",
+    "tar-votacoes",
+    "tar-onde"
+   ]
+  },
+  {
+   "id": "rio",
+   "title": "Enquanto isso, no Rio",
+   "color": "#5f7a2e",
+   "lay": "A faculdade e o estágio que o próprio currículo dele registra no mesmo período.",
+   "key": [
+    "rio-direito",
+    "rio-campus",
+    "rio-estagio",
+    "rio-sobreposicao"
+   ]
+  },
+  {
+   "id": "curriculo",
+   "title": "O currículo e o que ficou de fora",
+   "color": "#7a4fa3",
+   "lay": "O cargo que não aparece no currículo e a pós que a UFRJ diz não ter registro.",
+   "key": [
+    "cur-cargos",
+    "cur-ufrj",
+    "cur-senado",
+    "cur-diplomas"
+   ]
+  },
+  {
+   "id": "saida",
+   "title": "A saída e depois",
+   "color": "#b0781a",
+   "lay": "Como ele deixou o cargo e o que veio em seguida.",
+   "key": [
+    "sai-pedido",
+    "sai-ato",
+    "sai-tempo",
+    "sai-deputado"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "cargo",
+   "title": "O cargo, em 2 minutos",
+   "paras": [
+    "<b>A nomeação.</b> Em 14 de dezembro de 2000, a Câmara dos Deputados nomeou Flávio Bolsonaro, então com 19 anos, assistente técnico de gabinete na liderança do PPB, o partido do pai. Na mesma data, exonerou do mesmo cargo Ana Cristina Siqueira Valle, então mulher de Jair Bolsonaro, que estava nele desde 1998.",
+    "<b>O cargo.</b> As 15 tarefas do cargo, definidas por um ato da Mesa da Câmara, incluem acompanhar o plenário e as comissões e orientar os deputados nas votações. A Câmara disse à BBC que esse tipo de cargo não pode ser exercido fora de Brasília.",
+    "<b>O Rio.</b> No mesmo período, Flávio cursava Direito na Candido Mendes, no Centro do Rio, e, segundo o próprio currículo na Alerj, estagiava na Defensoria Pública, de agosto de 2000 a outubro de 2001. Esse currículo não cita o cargo na Câmara. Ele saiu a pedido em 28 de junho de 2002 e, meses depois, foi eleito deputado estadual.",
+    "<b>O que os documentos não mostram.</b> Onde ele estava a cada dia: a presença era registrada numa folha mensal, enviada pela liderança do partido. Procurado pela BBC em 2019, Flávio não quis responder (veja <a href=\"#extras\">Fatos extras</a>)."
+   ],
+   "claims": [
+    {
+     "say": "Isso é invenção",
+     "label": "documentado",
+     "doc": "Os atos estão nos boletins da própria Câmara: a nomeação no de 27/12/2000 (p. 3384) e a saída, a pedido, no de 31/7/2002 (p. 1879).",
+     "refs": [
+      {
+       "d": "b2000",
+       "p": 12,
+       "r": [
+        [
+         122.2,
+         175.9,
+         538.6,
+         187.9
+        ],
+        [
+         120.5,
+         188.6,
+         538.6,
+         200.6
+        ],
+        [
+         120.5,
+         201.4,
+         538.6,
+         213.4
+        ],
+        [
+         120.5,
+         213.8,
+         538.6,
+         225.8
+        ],
+        [
+         120.5,
+         226.6,
+         538.6,
+         238.6
+        ],
+        [
+         120.5,
+         239.3,
+         206.9,
+         251.3
+        ]
+       ]
+      },
+      {
+       "d": "b2002",
+       "p": 5,
+       "r": [
+        [
+         42.5,
+         677.0,
+         179.3,
+         689.0
+        ],
+        [
+         92.9,
+         694.1,
+         549.5,
+         706.1
+        ],
+        [
+         42.5,
+         706.9,
+         192.2,
+         718.9
+        ],
+        [
+         92.0,
+         720.6,
+         550.0,
+         732.8
+        ],
+        [
+         109.4,
+         733.3,
+         550.0,
+         745.3
+        ],
+        [
+         109.4,
+         746.0,
+         550.0,
+         758.0
+        ],
+        [
+         109.4,
+         758.9,
+         550.0,
+         770.9
+        ],
+        [
+         109.4,
+         771.7,
+         462.2,
+         783.7
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "say": "Ele trabalhava do Rio",
+     "label": "documentado",
+     "doc": "As tarefas do cargo incluem acompanhar o plenário e as comissões e orientar os deputados nas votações. O cargo existe “na administração e nas lideranças” da Câmara. Veja também Fatos extras.",
+     "refs": [
+      {
+       "d": "ato",
+       "p": 8,
+       "r": [
+        [
+         143.5,
+         317.3,
+         413.0,
+         332.6
+        ],
+        [
+         143.5,
+         335.3,
+         427.7,
+         349.0
+        ],
+        [
+         143.5,
+         352.1,
+         523.9,
+         365.8
+        ],
+        [
+         74.2,
+         366.7,
+         466.1,
+         382.6
+        ],
+        [
+         143.5,
+         385.0,
+         523.7,
+         398.6
+        ],
+        [
+         74.4,
+         401.8,
+         134.2,
+         414.2
+        ]
+       ]
+      },
+      {
+       "d": "ato",
+       "p": 13,
+       "r": [
+        [
+         82.8,
+         471.6,
+         382.3,
+         485.0
+        ],
+        [
+         90.5,
+         489.6,
+         343.0,
+         503.3
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "say": "Ele trabalhava em Brasília normalmente",
+     "label": "documentado",
+     "doc": "O perfil dele na Alerj lista um estágio na Defensoria Pública do Rio de agosto de 2000 a outubro de 2001. O diploma de Direito é do campus Centro, no Rio.",
+     "refs": [
+      {
+       "d": "alerj",
+       "p": 1,
+       "r": [
+        [
+         132.2,
+         431.5,
+         318.4,
+         437.0
+        ],
+        [
+         130.8,
+         438.9,
+         206.2,
+         444.4
+        ]
+       ]
+      },
+      {
+       "d": "diplomas",
+       "p": 1,
+       "r": [
+        [
+         45.5,
+         185.2,
+         278.2,
+         201.2
+        ],
+        [
+         45.5,
+         212.0,
+         404.0,
+         228.5
+        ],
+        [
+         45.2,
+         240.0,
+         362.5,
+         255.2
+        ],
+        [
+         273.5,
+         245.0,
+         298.2,
+         255.0
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "say": "Foi uma nomeação como outra qualquer",
+     "label": "documentado",
+     "doc": "Os dois atos têm a mesma data, 14/12/2000: Ana Cristina sai e Flávio entra no mesmo cargo, no mesmo gabinete.",
+     "refs": [
+      {
+       "d": "b2000",
+       "p": 8,
+       "r": [
+        [
+         122.2,
+         385.4,
+         538.6,
+         397.4
+        ],
+        [
+         120.5,
+         399.1,
+         538.6,
+         411.1
+        ],
+        [
+         120.5,
+         412.8,
+         538.6,
+         424.8
+        ],
+        [
+         120.5,
+         426.2,
+         538.6,
+         438.2
+        ],
+        [
+         120.5,
+         439.9,
+         350.9,
+         451.9
+        ]
+       ]
+      },
+      {
+       "d": "b2000",
+       "p": 12,
+       "r": [
+        [
+         122.2,
+         175.9,
+         538.6,
+         187.9
+        ],
+        [
+         120.5,
+         188.6,
+         538.6,
+         200.6
+        ],
+        [
+         120.5,
+         201.4,
+         538.6,
+         213.4
+        ],
+        [
+         120.5,
+         213.8,
+         538.6,
+         225.8
+        ],
+        [
+         120.5,
+         226.6,
+         538.6,
+         238.6
+        ],
+        [
+         120.5,
+         239.3,
+         206.9,
+         251.3
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "say": "Ele sempre declarou esse cargo",
+     "label": "documentado",
+     "doc": "No perfil da Alerj, entre os cargos exercidos, só aparecem os mandatos de deputado estadual, e o texto diz que ele ingressou na vida pública como deputado.",
+     "refs": [
+      {
+       "d": "alerj",
+       "p": 1,
+       "r": [
+        [
+         130.8,
+         292.0,
+         171.2,
+         297.6
+        ],
+        [
+         130.8,
+         299.5,
+         226.4,
+         305.0
+        ],
+        [
+         130.8,
+         307.0,
+         308.3,
+         312.5
+        ],
+        [
+         130.8,
+         314.4,
+         333.8,
+         319.9
+        ],
+        [
+         130.8,
+         321.9,
+         226.2,
+         327.4
+        ],
+        [
+         130.8,
+         329.3,
+         246.5,
+         334.9
+        ],
+        [
+         130.8,
+         336.8,
+         320.2,
+         342.3
+        ],
+        [
+         130.8,
+         344.3,
+         272.8,
+         349.8
+        ],
+        [
+         130.8,
+         351.7,
+         261.5,
+         357.2
+        ],
+        [
+         130.8,
+         467.6,
+         375.2,
+         473.1
+        ],
+        [
+         130.8,
+         475.1,
+         331.2,
+         480.6
+        ]
+       ]
+      }
+     ]
+    },
+    {
+     "say": "O currículo oficial dele está certo",
+     "label": "documentado",
+     "doc": "O perfil da Alerj listava uma pós em Ciências Políticas pela UFRJ. Entre os três diplomas que ele publicou em 2026 para mostrar a formação, nenhum é da UFRJ.",
+     "refs": [
+      {
+       "d": "alerj",
+       "p": 1,
+       "r": [
+        [
+         132.2,
+         395.3,
+         282.7,
+         400.8
+        ]
+       ]
+      },
+      {
+       "d": "diplomas",
+       "p": 2,
+       "r": [
+        [
+         106.2,
+         206.0,
+         679.0,
+         220.8
+        ],
+        [
+         93.0,
+         210.5,
+         101.8,
+         219.8
+        ],
+        [
+         261.5,
+         222.8,
+         511.5,
+         234.0
+        ],
+        [
+         291.2,
+         263.5,
+         482.0,
+         274.5
+        ],
+        [
+         306.0,
+         289.2,
+         683.8,
+         305.0
+        ],
+        [
+         89.2,
+         295.2,
+         300.5,
+         306.5
+        ],
+        [
+         88.8,
+         310.2,
+         264.8,
+         322.2
+        ],
+        [
+         278.8,
+         353.8,
+         487.5,
+         365.5
+        ]
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "numbers": [
+  {
+   "value": "19 anos",
+   "label": "idade de Flávio quando foi nomeado",
+   "refs": [
+    {
+     "d": "b2000",
+     "p": 12,
+     "r": [
+      [
+       122.2,
+       175.9,
+       538.6,
+       187.9
+      ],
+      [
+       120.5,
+       188.6,
+       538.6,
+       200.6
+      ],
+      [
+       120.5,
+       201.4,
+       538.6,
+       213.4
+      ],
+      [
+       120.5,
+       213.8,
+       538.6,
+       225.8
+      ],
+      [
+       120.5,
+       226.6,
+       538.6,
+       238.6
+      ],
+      [
+       120.5,
+       239.3,
+       206.9,
+       251.3
+      ]
+     ]
+    },
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       296.1,
+       196.6,
+       324.8,
+       202.1
+      ],
+      [
+       296.1,
+       204.8,
+       327.2,
+       208.6
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "value": "1 ano e 6 meses",
+   "label": "no cargo, de 14/12/2000 a 28/6/2002",
+   "refs": [
+    {
+     "d": "b2000",
+     "p": 12,
+     "r": [
+      [
+       378.1,
+       226.6,
+       538.6,
+       238.6
+      ],
+      [
+       120.5,
+       239.3,
+       206.9,
+       251.3
+      ]
+     ]
+    },
+    {
+     "d": "b2002",
+     "p": 5,
+     "r": [
+      [
+       352.3,
+       758.9,
+       550.0,
+       770.9
+      ],
+      [
+       109.4,
+       771.7,
+       203.0,
+       783.7
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "value": "15",
+   "label": "tarefas do cargo no Ato da Mesa nº 45, do plenário e das comissões ao trabalho de gabinete",
+   "refs": [
+    {
+     "d": "ato",
+     "p": 8,
+     "r": [
+      [
+       74.6,
+       285.6,
+       263.0,
+       298.1
+      ],
+      [
+       143.5,
+       317.3,
+       413.0,
+       332.6
+      ],
+      [
+       143.5,
+       335.3,
+       427.7,
+       349.0
+      ],
+      [
+       143.5,
+       352.1,
+       523.9,
+       365.8
+      ],
+      [
+       74.2,
+       366.7,
+       466.1,
+       382.6
+      ],
+      [
+       143.5,
+       385.0,
+       523.7,
+       398.6
+      ],
+      [
+       74.4,
+       401.8,
+       134.2,
+       414.2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "value": "10 meses",
+   "label": "com cargo, faculdade e estágio ao mesmo tempo (dezembro de 2000 a outubro de 2001)",
+   "refs": [
+    {
+     "d": "b2000",
+     "p": 12,
+     "r": [
+      [
+       122.2,
+       175.9,
+       538.6,
+       187.9
+      ],
+      [
+       120.5,
+       188.6,
+       538.6,
+       200.6
+      ],
+      [
+       120.5,
+       201.4,
+       538.6,
+       213.4
+      ],
+      [
+       120.5,
+       213.8,
+       538.6,
+       225.8
+      ],
+      [
+       120.5,
+       226.6,
+       538.6,
+       238.6
+      ],
+      [
+       120.5,
+       239.3,
+       206.9,
+       251.3
+      ]
+     ]
+    },
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       132.2,
+       431.5,
+       318.4,
+       437.0
+      ],
+      [
+       130.8,
+       438.9,
+       206.2,
+       444.4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "value": "R$ 56.548,63",
+   "label": "pagos pelo cargo em 2001, segundo a declaração de Imposto de Renda citada pela BBC",
+   "refs": [],
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "value": "mais de 1.000 km",
+   "label": "entre Brasília e o Rio, quase uma hora e meia de voo, segundo a BBC",
+   "refs": [],
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  }
+ ],
+ "timeline": [
+  {
+   "date": "17/10/1996",
+   "title": "A Mesa da Câmara define as tarefas dos cargos",
+   "label": "documentado",
+   "text": "O Ato da Mesa nº 45 estabelece as atribuições dos cargos em comissão, entre eles o de assistente técnico de gabinete. Sai no Diário da Câmara no dia seguinte e de novo em 6/11/1996.",
+   "refs": [
+    {
+     "d": "ato",
+     "p": 2,
+     "r": [
+      [
+       195.1,
+       69.3,
+       432.7,
+       86.6
+      ],
+      [
+       320.2,
+       140.6,
+       530.4,
+       154.6
+      ],
+      [
+       320.4,
+       158.2,
+       530.2,
+       171.6
+      ],
+      [
+       320.4,
+       175.7,
+       447.6,
+       189.1
+      ],
+      [
+       160.1,
+       548.4,
+       459.8,
+       564.6
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "10/11/1998",
+   "title": "Ana Cristina entra no cargo",
+   "label": "documentado",
+   "text": "Ana Cristina Siqueira Valle é nomeada assistente técnica de gabinete na liderança do PPB.",
+   "refs": [
+    {
+     "d": "b1998",
+     "p": 1,
+     "r": [
+      [
+       151.7,
+       425.0,
+       542.7,
+       437.1
+      ],
+      [
+       151.7,
+       437.3,
+       542.7,
+       449.3
+      ],
+      [
+       151.7,
+       449.5,
+       542.6,
+       461.5
+      ],
+      [
+       151.7,
+       461.5,
+       542.7,
+       473.5
+      ],
+      [
+       151.7,
+       473.8,
+       542.4,
+       485.8
+      ],
+      [
+       151.7,
+       486.0,
+       353.3,
+       498.0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2000",
+   "title": "Flávio começa a faculdade de Direito",
+   "label": "reportagem",
+   "text": "Na Universidade Candido Mendes, no Centro do Rio, segundo a BBC.",
+   "refs": [],
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "date": "agosto de 2000",
+   "title": "Começa o estágio na Defensoria",
+   "label": "documentado",
+   "text": "Segundo o perfil dele na Alerj, no Núcleo de Sistema Penitenciário da Defensoria Pública do Rio.",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       132.2,
+       431.5,
+       318.4,
+       437.0
+      ],
+      [
+       130.8,
+       438.9,
+       206.2,
+       444.4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "14/12/2000",
+   "title": "Ana Cristina sai, Flávio entra",
+   "label": "documentado",
+   "text": "Na mesma data, a Câmara exonera Ana Cristina e nomeia Flávio, aos 19 anos, para o mesmo cargo, no mesmo gabinete.",
+   "refs": [
+    {
+     "d": "b2000",
+     "p": 8,
+     "r": [
+      [
+       122.2,
+       385.4,
+       538.6,
+       397.4
+      ],
+      [
+       120.5,
+       399.1,
+       538.6,
+       411.1
+      ],
+      [
+       120.5,
+       412.8,
+       538.6,
+       424.8
+      ],
+      [
+       120.5,
+       426.2,
+       538.6,
+       438.2
+      ],
+      [
+       120.5,
+       439.9,
+       350.9,
+       451.9
+      ]
+     ]
+    },
+    {
+     "d": "b2000",
+     "p": 12,
+     "r": [
+      [
+       122.2,
+       175.9,
+       538.6,
+       187.9
+      ],
+      [
+       120.5,
+       188.6,
+       538.6,
+       200.6
+      ],
+      [
+       120.5,
+       201.4,
+       538.6,
+       213.4
+      ],
+      [
+       120.5,
+       213.8,
+       538.6,
+       225.8
+      ],
+      [
+       120.5,
+       226.6,
+       538.6,
+       238.6
+      ],
+      [
+       120.5,
+       239.3,
+       206.9,
+       251.3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2001",
+   "title": "O cargo rende R$ 56.548,63 no ano",
+   "label": "reportagem",
+   "text": "Segundo a declaração de Imposto de Renda de Flávio, citada pela BBC: cerca de R$ 4.712 por mês.",
+   "refs": [],
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "date": "outubro de 2001",
+   "title": "Termina o estágio",
+   "label": "documentado",
+   "text": "Segundo o perfil da Alerj. No LinkedIn, segundo a BBC, as datas eram outras: de março de 2001 a janeiro de 2002.",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       132.2,
+       431.5,
+       318.4,
+       437.0
+      ],
+      [
+       130.8,
+       438.9,
+       206.2,
+       444.4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "28/06/2002",
+   "title": "Flávio deixa o cargo, a pedido",
+   "label": "documentado",
+   "text": "A exoneração vale a partir desta data. O ato é de 24/7/2002 e saiu no Diário Oficial da União em 26/7/2002.",
+   "refs": [
+    {
+     "d": "b2002",
+     "p": 5,
+     "r": [
+      [
+       42.5,
+       677.0,
+       179.3,
+       689.0
+      ],
+      [
+       92.9,
+       694.1,
+       549.5,
+       706.1
+      ],
+      [
+       42.5,
+       706.9,
+       192.2,
+       718.9
+      ],
+      [
+       92.0,
+       720.6,
+       550.0,
+       732.8
+      ],
+      [
+       109.4,
+       733.3,
+       550.0,
+       745.3
+      ],
+      [
+       109.4,
+       746.0,
+       550.0,
+       758.0
+      ],
+      [
+       109.4,
+       758.9,
+       550.0,
+       770.9
+      ],
+      [
+       109.4,
+       771.7,
+       462.2,
+       783.7
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "outubro de 2002",
+   "title": "Eleito deputado estadual",
+   "label": "documentado",
+   "text": "Pelo PPB. O perfil da Alerj registra o mandato de 2003 a 2007.",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       130.8,
+       299.5,
+       226.4,
+       305.0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "08/02/2006",
+   "title": "Conclui o curso de Direito",
+   "label": "documentado",
+   "text": "No campus Centro da Universidade Candido Mendes, segundo o diploma.",
+   "refs": [
+    {
+     "d": "diplomas",
+     "p": 1,
+     "r": [
+      [
+       45.5,
+       212.0,
+       404.0,
+       228.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "18/01/2019",
+   "title": "Agência Senado: “pós-graduado em ciências políticas”",
+   "label": "documentado",
+   "text": "O texto que apresenta o senador eleito diz que ele é pós-graduado em ciências políticas. Em 2026, a UFRJ informaria não ter registro dele como aluno.",
+   "refs": [
+    {
+     "d": "senado",
+     "p": 1,
+     "r": [
+      [
+       342.3,
+       197.2,
+       550.5,
+       207.7
+      ],
+      [
+       25.4,
+       215.0,
+       118.1,
+       225.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "23/01/2019",
+   "title": "A BBC publica a reportagem",
+   "label": "reportagem",
+   "text": "Flávio não quis responder às perguntas sobre o cargo.",
+   "refs": [],
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "date": "30/01/2019",
+   "title": "O Wayback Machine guarda o perfil da Alerj",
+   "label": "documentado",
+   "text": "A cópia mostra a faculdade, o estágio e a pós da UFRJ, e não o cargo na Câmara.",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       36.0,
+       37.1,
+       383.0,
+       42.6
+      ],
+      [
+       130.8,
+       292.0,
+       171.2,
+       297.6
+      ],
+      [
+       130.8,
+       299.5,
+       226.4,
+       305.0
+      ],
+      [
+       130.8,
+       307.0,
+       308.3,
+       312.5
+      ],
+      [
+       130.8,
+       314.4,
+       333.8,
+       319.9
+      ],
+      [
+       130.8,
+       321.9,
+       226.2,
+       327.4
+      ],
+      [
+       130.8,
+       329.3,
+       246.5,
+       334.9
+      ],
+      [
+       130.8,
+       336.8,
+       320.2,
+       342.3
+      ],
+      [
+       130.8,
+       344.3,
+       272.8,
+       349.8
+      ],
+      [
+       130.8,
+       351.7,
+       261.5,
+       357.2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "12/08/2026",
+   "title": "A UFRJ nega a pós; Flávio publica os diplomas",
+   "label": "reportagem",
+   "text": "A UFRJ informa que não há registro dele como aluno. À noite, Flávio publica três diplomas, nenhum da UFRJ.",
+   "refs": [],
+   "sources": [
+    {
+     "name": "Band: “UFRJ nega pós de Flávio citada em perfis oficiais; campanha cita equívoco” (12/8/2026)",
+     "short": "Band, 12/8/2026",
+     "url": "https://www.band.com.br/politica/eleicoes/2026/ufrj-nega-pos-de-flavio-citada-em-perfis-oficiais-campanha-cita-equivoco-202608121549"
+    },
+    {
+     "name": "Poder360: “Flávio divulga diplomas para mostrar formação acadêmica” (13/8/2026)",
+     "short": "Poder360, 13/8/2026",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-divulga-diplomas-para-mostrar-formacao-academica/"
+    }
+   ]
+  }
+ ],
+ "roteiro": [
+  {
+   "id": "nom-flavio",
+   "theme": "nomeacao",
+   "label": "documentado",
+   "title": "Flávio é nomeado para a liderança do PPB",
+   "text": "O ato nomeia Flávio Nantes Bolsonaro para exercer, no gabinete do líder do Partido Progressista Brasileiro, o PPB, o cargo de assistente técnico de gabinete (CNE-09) do quadro de pessoal da Câmara.",
+   "quote": "FLÁVIO NANTES BOLSONARO para exercer, no Gabinete do Líder do Partido Progressista Brasileiro, o cargo de Assistente Técnico de Gabinete, CNE-09",
+   "refs": [
+    {
+     "d": "b2000",
+     "p": 12,
+     "r": [
+      [
+       122.2,
+       175.9,
+       538.6,
+       187.9
+      ],
+      [
+       120.5,
+       188.6,
+       538.6,
+       200.6
+      ],
+      [
+       120.5,
+       201.4,
+       538.6,
+       213.4
+      ],
+      [
+       120.5,
+       213.8,
+       538.6,
+       225.8
+      ],
+      [
+       120.5,
+       226.6,
+       538.6,
+       238.6
+      ],
+      [
+       120.5,
+       239.3,
+       206.9,
+       251.3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nom-data",
+   "theme": "nomeacao",
+   "label": "documentado",
+   "title": "O ato é de 14 de dezembro de 2000",
+   "text": "A nomeação tem data de 14/12/2000 e saiu no Diário da Câmara do dia seguinte. O boletim de 27/12/2000 reproduz o ato, na página 3384.",
+   "refs": [
+    {
+     "d": "b2000",
+     "p": 12,
+     "r": [
+      [
+       378.1,
+       226.6,
+       538.6,
+       238.6
+      ],
+      [
+       120.5,
+       239.3,
+       206.9,
+       251.3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nom-idade",
+   "theme": "nomeacao",
+   "label": "documentado",
+   "title": "Ele tinha 19 anos",
+   "text": "Flávio nasceu em 30 de abril de 1981, data que aparece no perfil dele na Alerj e no diploma que ele publicou. Ao ser nomeado, tinha 19 anos.",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       296.1,
+       196.6,
+       324.8,
+       202.1
+      ],
+      [
+       296.1,
+       204.8,
+       327.2,
+       208.6
+      ]
+     ]
+    },
+    {
+     "d": "diplomas",
+     "p": 1,
+     "r": [
+      [
+       45.5,
+       290.8,
+       701.2,
+       309.5
+      ],
+      [
+       359.0,
+       302.5,
+       361.0,
+       306.2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nom-ana-sai",
+   "theme": "nomeacao",
+   "label": "documentado",
+   "title": "Na mesma data, Ana Cristina sai do mesmo cargo",
+   "text": "O mesmo boletim exonera Ana Cristina Siqueira Valle Mendes do cargo de assistente técnico de gabinete, CNE-09, que ela exercia no gabinete do líder do PPB. A data é a mesma da nomeação de Flávio: 14/12/2000.",
+   "quote": "ANA CRISTINA SIQUEIRA VALLE MENDES (…) do cargo de Assistente Técnico de Gabinete, CNE-09 (…) que exerce no Gabinete do Líder do Partido Progressista Brasileiro. Em 14/12/2000.",
+   "refs": [
+    {
+     "d": "b2000",
+     "p": 8,
+     "r": [
+      [
+       122.2,
+       385.4,
+       538.6,
+       397.4
+      ],
+      [
+       120.5,
+       399.1,
+       538.6,
+       411.1
+      ],
+      [
+       120.5,
+       412.8,
+       538.6,
+       424.8
+      ],
+      [
+       120.5,
+       426.2,
+       538.6,
+       438.2
+      ],
+      [
+       120.5,
+       439.9,
+       350.9,
+       451.9
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nom-ana-entra",
+   "theme": "nomeacao",
+   "label": "documentado",
+   "title": "Ana Cristina estava no cargo desde 1998",
+   "text": "Ana Cristina Siqueira Valle Mendes foi nomeada para o mesmo cargo, no gabinete do líder do PPB, em 10/11/1998. Segundo a BBC, ela era então mulher de Jair Bolsonaro (fora deste documento).",
+   "refs": [
+    {
+     "d": "b1998",
+     "p": 1,
+     "r": [
+      [
+       151.7,
+       425.0,
+       542.7,
+       437.1
+      ],
+      [
+       151.7,
+       437.3,
+       542.7,
+       449.3
+      ],
+      [
+       151.7,
+       449.5,
+       542.6,
+       461.5
+      ],
+      [
+       151.7,
+       461.5,
+       542.7,
+       473.5
+      ],
+      [
+       151.7,
+       473.8,
+       542.4,
+       485.8
+      ],
+      [
+       151.7,
+       486.0,
+       353.3,
+       498.0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nom-mesmo-posto",
+   "theme": "nomeacao",
+   "label": "interpretação",
+   "title": "O posto passou da então mulher do pai para o filho",
+   "text": "Os atos mostram o mesmo cargo, no mesmo gabinete, saindo de Ana Cristina e indo para Flávio na mesma data. Contratar parentes ainda não era proibido: a proibição veio em 2008, com uma súmula do STF.",
+   "refs": [
+    {
+     "d": "b2000",
+     "p": 8,
+     "r": [
+      [
+       122.2,
+       385.4,
+       538.6,
+       397.4
+      ],
+      [
+       120.5,
+       399.1,
+       538.6,
+       411.1
+      ],
+      [
+       120.5,
+       412.8,
+       538.6,
+       424.8
+      ],
+      [
+       120.5,
+       426.2,
+       538.6,
+       438.2
+      ],
+      [
+       120.5,
+       439.9,
+       350.9,
+       451.9
+      ]
+     ]
+    },
+    {
+     "d": "b2000",
+     "p": 12,
+     "r": [
+      [
+       122.2,
+       175.9,
+       538.6,
+       187.9
+      ],
+      [
+       120.5,
+       188.6,
+       538.6,
+       200.6
+      ],
+      [
+       120.5,
+       201.4,
+       538.6,
+       213.4
+      ],
+      [
+       120.5,
+       213.8,
+       538.6,
+       225.8
+      ],
+      [
+       120.5,
+       226.6,
+       538.6,
+       238.6
+      ],
+      [
+       120.5,
+       239.3,
+       206.9,
+       251.3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tar-ato",
+   "theme": "tarefas",
+   "label": "documentado",
+   "title": "Um ato da Mesa define as tarefas de cada cargo",
+   "text": "O Ato da Mesa nº 45, de 17/10/1996, estabelece as atribuições dos cargos em comissão e das funções comissionadas da Câmara, listadas no anexo. Saiu no Diário da Câmara de 18/10/1996 e de novo no suplemento de 6/11/1996, que é a cópia deste guia.",
+   "refs": [
+    {
+     "d": "ato",
+     "p": 2,
+     "r": [
+      [
+       195.1,
+       69.3,
+       432.7,
+       86.6
+      ],
+      [
+       320.2,
+       140.6,
+       530.4,
+       154.6
+      ],
+      [
+       320.4,
+       158.2,
+       530.2,
+       171.6
+      ],
+      [
+       320.4,
+       175.7,
+       447.6,
+       189.1
+      ],
+      [
+       160.1,
+       548.4,
+       459.8,
+       564.6
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tar-plenario",
+   "theme": "tarefas",
+   "label": "documentado",
+   "title": "Acompanhar o plenário e as comissões",
+   "text": "São 15 as tarefas do assistente técnico de gabinete. As duas primeiras: prestar assistência regimental aos deputados e acompanhar as reuniões plenárias e de comissões.",
+   "quote": "I - prestar assistência regimental aos deputados; II - acompanhar reuniões plenárias e de comissões",
+   "refs": [
+    {
+     "d": "ato",
+     "p": 8,
+     "r": [
+      [
+       74.6,
+       285.6,
+       263.0,
+       298.1
+      ],
+      [
+       143.5,
+       317.3,
+       413.0,
+       332.6
+      ],
+      [
+       143.5,
+       335.3,
+       427.7,
+       349.0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tar-votacoes",
+   "theme": "tarefas",
+   "label": "documentado",
+   "title": "Orientar os deputados nas votações",
+   "text": "Ele deve orientar e assistir os deputados nas votações do plenário e das comissões, de acordo com a posição da liderança, e acompanhar o resultado das votações.",
+   "quote": "III - orientar e assistir os deputados nas votações de matérias no Plenário e nas Comissões, de acordo com o posicionamento da Liderança",
+   "refs": [
+    {
+     "d": "ato",
+     "p": 8,
+     "r": [
+      [
+       143.5,
+       352.1,
+       523.9,
+       365.8
+      ],
+      [
+       74.2,
+       366.7,
+       466.1,
+       382.6
+      ],
+      [
+       143.5,
+       385.0,
+       523.7,
+       398.6
+      ],
+      [
+       74.4,
+       401.8,
+       134.2,
+       414.2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tar-pauta",
+   "theme": "tarefas",
+   "label": "documentado",
+   "title": "Acompanhar os prazos e a pauta do dia",
+   "text": "Também deve acompanhar os prazos de emendas e informar aos deputados da bancada o que está na pauta da Ordem do Dia.",
+   "refs": [
+    {
+     "d": "ato",
+     "p": 8,
+     "r": [
+      [
+       143.5,
+       417.6,
+       450.0,
+       433.2
+      ],
+      [
+       143.5,
+       434.2,
+       523.2,
+       451.0
+      ],
+      [
+       73.9,
+       451.2,
+       199.4,
+       465.1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tar-gabinete",
+   "theme": "tarefas",
+   "label": "documentado",
+   "title": "E o trabalho de gabinete",
+   "text": "As outras tarefas são de gabinete: ajudar o chefe de gabinete, preparar expedientes, examinar processos, fazer relatórios das reuniões e operar o computador.",
+   "refs": [
+    {
+     "d": "ato",
+     "p": 8,
+     "r": [
+      [
+       143.5,
+       466.6,
+       523.7,
+       485.3
+      ],
+      [
+       73.7,
+       483.9,
+       278.4,
+       496.6
+      ],
+      [
+       143.5,
+       496.3,
+       498.5,
+       518.5
+      ],
+      [
+       143.5,
+       515.5,
+       478.3,
+       536.4
+      ],
+      [
+       143.5,
+       539.0,
+       521.8,
+       557.3
+      ],
+      [
+       73.2,
+       559.4,
+       139.2,
+       572.2
+      ],
+      [
+       143.5,
+       576.5,
+       387.1,
+       589.2
+      ],
+      [
+       143.5,
+       593.0,
+       521.5,
+       607.2
+      ],
+      [
+       72.7,
+       608.9,
+       223.7,
+       622.6
+      ],
+      [
+       143.5,
+       625.9,
+       521.3,
+       640.1
+      ],
+      [
+       72.2,
+       642.0,
+       170.2,
+       655.7
+      ],
+      [
+       143.5,
+       658.8,
+       475.4,
+       673.4
+      ],
+      [
+       143.5,
+       675.4,
+       437.5,
+       689.0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tar-onde",
+   "theme": "tarefas",
+   "label": "documentado",
+   "title": "Onde esse cargo existe: na Câmara",
+   "text": "Na parte “Informações”, publicada com o ato, o assistente técnico de gabinete (CNE-09) aparece como cargo “encontrado na administração e nas lideranças” da Câmara.",
+   "quote": "ASSISTENTE TÉCNICO DE GABINETE - CNE-09 . encontrado na administração e nas lideranças.",
+   "refs": [
+    {
+     "d": "ato",
+     "p": 13,
+     "r": [
+      [
+       82.8,
+       471.6,
+       382.3,
+       485.0
+      ],
+      [
+       90.5,
+       489.6,
+       343.0,
+       503.3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tar-brasilia",
+   "theme": "tarefas",
+   "label": "interpretação",
+   "title": "Tarefas que só se cumprem dentro da Câmara",
+   "text": "Acompanhar sessões do plenário, reuniões de comissões e votações exige estar no prédio da Câmara, em Brasília. A Câmara disse à BBC que esse tipo de cargo não pode ser exercido em outra cidade (veja Fatos extras).",
+   "refs": [
+    {
+     "d": "ato",
+     "p": 8,
+     "r": [
+      [
+       143.5,
+       317.3,
+       413.0,
+       332.6
+      ],
+      [
+       143.5,
+       335.3,
+       427.7,
+       349.0
+      ]
+     ]
+    },
+    {
+     "d": "ato",
+     "p": 8,
+     "r": [
+      [
+       143.5,
+       352.1,
+       523.9,
+       365.8
+      ],
+      [
+       74.2,
+       366.7,
+       466.1,
+       382.6
+      ],
+      [
+       143.5,
+       385.0,
+       523.7,
+       398.6
+      ],
+      [
+       74.4,
+       401.8,
+       134.2,
+       414.2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rio-direito",
+   "theme": "rio",
+   "label": "documentado",
+   "title": "O curso de Direito na Candido Mendes",
+   "text": "O perfil de Flávio no site da Alerj lista o bacharelado em Direito pela Universidade Cândido Mendes, no Rio de Janeiro.",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       132.2,
+       387.9,
+       301.5,
+       393.4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rio-campus",
+   "theme": "rio",
+   "label": "documentado",
+   "title": "No campus Centro, no Rio, até 2006",
+   "text": "O diploma que Flávio publicou registra a conclusão do curso de Direito em 8/2/2006, no campus Centro, no Rio. Segundo a BBC, ele começou o curso em 2000 (fora deste documento).",
+   "refs": [
+    {
+     "d": "diplomas",
+     "p": 1,
+     "r": [
+      [
+       45.5,
+       185.2,
+       278.2,
+       201.2
+      ],
+      [
+       45.5,
+       212.0,
+       404.0,
+       228.5
+      ],
+      [
+       45.2,
+       240.0,
+       362.5,
+       255.2
+      ],
+      [
+       273.5,
+       245.0,
+       298.2,
+       255.0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rio-estagio",
+   "theme": "rio",
+   "label": "documentado",
+   "title": "Estágio na Defensoria, de agosto de 2000 a outubro de 2001",
+   "text": "O mesmo perfil lista um estágio na Defensoria Pública Geral do Estado do Rio de Janeiro, no Núcleo de Sistema Penitenciário, de agosto de 2000 a outubro de 2001.",
+   "quote": "Defensoria Pública Geral do Estado do Rio de Janeiro - DPGE Ago 2000 / Out 2001 (Núcleo de Sistema Penitenciário)",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       132.2,
+       431.5,
+       318.4,
+       437.0
+      ],
+      [
+       130.8,
+       438.9,
+       206.2,
+       444.4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rio-sobreposicao",
+   "theme": "rio",
+   "label": "interpretação",
+   "title": "Dez meses de cargo, faculdade e estágio ao mesmo tempo",
+   "text": "Pelas datas dos documentos, de dezembro de 2000 a outubro de 2001 Flávio tinha o cargo em Brasília, a faculdade no Rio e o estágio na Defensoria, também no Rio. Cargo e faculdade seguiram juntos até junho de 2002.",
+   "refs": [
+    {
+     "d": "b2000",
+     "p": 12,
+     "r": [
+      [
+       122.2,
+       175.9,
+       538.6,
+       187.9
+      ],
+      [
+       120.5,
+       188.6,
+       538.6,
+       200.6
+      ],
+      [
+       120.5,
+       201.4,
+       538.6,
+       213.4
+      ],
+      [
+       120.5,
+       213.8,
+       538.6,
+       225.8
+      ],
+      [
+       120.5,
+       226.6,
+       538.6,
+       238.6
+      ],
+      [
+       120.5,
+       239.3,
+       206.9,
+       251.3
+      ]
+     ]
+    },
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       132.2,
+       431.5,
+       318.4,
+       437.0
+      ],
+      [
+       130.8,
+       438.9,
+       206.2,
+       444.4
+      ]
+     ]
+    },
+    {
+     "d": "b2002",
+     "p": 5,
+     "r": [
+      [
+       352.3,
+       758.9,
+       550.0,
+       770.9
+      ],
+      [
+       109.4,
+       771.7,
+       203.0,
+       783.7
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rio-distancia",
+   "theme": "rio",
+   "label": "interpretação",
+   "title": "A conta que não fecha",
+   "text": "Os documentos não mostram onde ele estava a cada dia, nem provam faltas. Mas ser nomeado e pago por um cargo com tarefas no plenário e nas comissões, enquanto o próprio currículo o coloca na faculdade e num estágio no Rio, a mais de 1.000 km, é o quadro que se costuma chamar de funcionário fantasma. Procurado pela BBC em 2019, ele não explicou como conciliava as atividades.",
+   "refs": [
+    {
+     "d": "ato",
+     "p": 8,
+     "r": [
+      [
+       143.5,
+       317.3,
+       413.0,
+       332.6
+      ],
+      [
+       143.5,
+       335.3,
+       427.7,
+       349.0
+      ]
+     ]
+    },
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       132.2,
+       387.9,
+       301.5,
+       393.4
+      ],
+      [
+       132.2,
+       431.5,
+       318.4,
+       437.0
+      ],
+      [
+       130.8,
+       438.9,
+       206.2,
+       444.4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cur-cargos",
+   "theme": "curriculo",
+   "label": "documentado",
+   "title": "Nos cargos exercidos, só a Alerj",
+   "text": "Em “Cargos Exercidos”, o perfil da Alerj lista só os mandatos de deputado estadual (2003/2007 e 2007/2011) e as comissões que ele presidiu ou integrou. O cargo na Câmara dos Deputados não aparece.",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       130.8,
+       292.0,
+       171.2,
+       297.6
+      ],
+      [
+       130.8,
+       299.5,
+       226.4,
+       305.0
+      ],
+      [
+       130.8,
+       307.0,
+       308.3,
+       312.5
+      ],
+      [
+       130.8,
+       314.4,
+       333.8,
+       319.9
+      ],
+      [
+       130.8,
+       321.9,
+       226.2,
+       327.4
+      ],
+      [
+       130.8,
+       329.3,
+       246.5,
+       334.9
+      ],
+      [
+       130.8,
+       336.8,
+       320.2,
+       342.3
+      ],
+      [
+       130.8,
+       344.3,
+       272.8,
+       349.8
+      ],
+      [
+       130.8,
+       351.7,
+       261.5,
+       357.2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cur-vida-publica",
+   "theme": "curriculo",
+   "label": "documentado",
+   "title": "“Ingressou na vida pública” como deputado, diz o perfil",
+   "text": "Na parte “Atuação Parlamentar”, o perfil da Alerj diz que Flávio ingressou na vida pública como o deputado estadual mais jovem da legislatura 2003/2007. O cargo na Câmara, de 2000 a 2002, não é citado.",
+   "quote": "Ingressou na vida pública como o Deputado Estadual mais jovem da legislatura 2003/2007",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       130.8,
+       467.6,
+       375.2,
+       473.1
+      ],
+      [
+       130.8,
+       475.1,
+       331.2,
+       480.6
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cur-ufrj",
+   "theme": "curriculo",
+   "label": "documentado",
+   "title": "Uma pós em Ciências Políticas pela UFRJ",
+   "text": "O mesmo perfil lista uma pós-graduação em Ciências Políticas pela UFRJ. Em 12/8/2026, a UFRJ informou que não há registro de Flávio como aluno, e a campanha dele atribuiu a informação a um equívoco (fora deste documento).",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       132.2,
+       395.3,
+       282.7,
+       400.8
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cur-senado",
+   "theme": "curriculo",
+   "label": "documentado",
+   "title": "O Senado repetiu a pós",
+   "text": "Ao apresentar o senador eleito, em 18/1/2019, a Agência Senado o descreveu como “bacharel em direito e pós-graduado em ciências políticas”, e o texto também não cita o cargo na Câmara. Em 12/8/2026, segundo a Band, a pós já tinha sido corrigida no site (fora deste documento).",
+   "refs": [
+    {
+     "d": "senado",
+     "p": 1,
+     "r": [
+      [
+       342.3,
+       197.2,
+       550.5,
+       207.7
+      ],
+      [
+       25.4,
+       215.0,
+       118.1,
+       225.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cur-diplomas",
+   "theme": "curriculo",
+   "label": "documentado",
+   "title": "Os diplomas que ele publicou",
+   "text": "Em 12/8/2026, Flávio publicou três diplomas: Direito (Universidade Candido Mendes, 2006), especialização em Políticas Públicas (Iuperj, da Candido Mendes, com a Escola de Políticas Públicas e Governo, 2012) e MBA em Empreendedorismo e Desenvolvimento de Novos Negócios (FGV, 2015). Nenhum é da UFRJ.",
+   "refs": [
+    {
+     "d": "diplomas",
+     "p": 1,
+     "r": [
+      [
+       45.5,
+       185.2,
+       278.2,
+       201.2
+      ],
+      [
+       45.5,
+       212.0,
+       404.0,
+       228.5
+      ],
+      [
+       45.2,
+       240.0,
+       362.5,
+       255.2
+      ],
+      [
+       273.5,
+       245.0,
+       298.2,
+       255.0
+      ]
+     ]
+    },
+    {
+     "d": "diplomas",
+     "p": 2,
+     "r": [
+      [
+       106.2,
+       206.0,
+       679.0,
+       220.8
+      ],
+      [
+       93.0,
+       210.5,
+       101.8,
+       219.8
+      ],
+      [
+       261.5,
+       222.8,
+       511.5,
+       234.0
+      ],
+      [
+       291.2,
+       263.5,
+       482.0,
+       274.5
+      ],
+      [
+       306.0,
+       289.2,
+       683.8,
+       305.0
+      ],
+      [
+       89.2,
+       295.2,
+       300.5,
+       306.5
+      ],
+      [
+       88.8,
+       310.2,
+       264.8,
+       322.2
+      ],
+      [
+       278.8,
+       353.8,
+       487.5,
+       365.5
+      ]
+     ]
+    },
+    {
+     "d": "diplomas",
+     "p": 3,
+     "r": [
+      [
+       143.5,
+       316.0,
+       560.5,
+       330.5
+      ],
+      [
+       143.8,
+       334.5,
+       421.5,
+       347.8
+      ],
+      [
+       143.8,
+       366.2,
+       520.8,
+       379.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sai-pedido",
+   "theme": "saida",
+   "label": "documentado",
+   "title": "Exonerado a pedido, a partir de 28 de junho de 2002",
+   "text": "O ato exonera Flávio, a pedido, do cargo de assistente técnico de gabinete que ele exercia no gabinete do líder do PPB, a partir de 28 de junho de 2002.",
+   "quote": "Exonerar, a pedido (…) FLÁVIO NANTES BOLSONARO (…) do cargo de Assistente Técnico de Gabinete, CNE-09 (…) a partir de 28 de junho do corrente ano.",
+   "refs": [
+    {
+     "d": "b2002",
+     "p": 5,
+     "r": [
+      [
+       42.5,
+       677.0,
+       179.3,
+       689.0
+      ],
+      [
+       92.9,
+       694.1,
+       549.5,
+       706.1
+      ],
+      [
+       42.5,
+       706.9,
+       192.2,
+       718.9
+      ],
+      [
+       92.0,
+       720.6,
+       550.0,
+       732.8
+      ],
+      [
+       109.4,
+       733.3,
+       550.0,
+       745.3
+      ],
+      [
+       109.4,
+       746.0,
+       550.0,
+       758.0
+      ],
+      [
+       109.4,
+       758.9,
+       550.0,
+       770.9
+      ],
+      [
+       109.4,
+       771.7,
+       462.2,
+       783.7
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sai-ato",
+   "theme": "saida",
+   "label": "documentado",
+   "title": "O ato é de 24/7/2002 e saiu no Diário Oficial",
+   "text": "A exoneração tem data de 24/7/2002 e foi publicada no Diário Oficial da União de 26/7/2002. O boletim de 31/7/2002 reproduz o ato, na página 1879.",
+   "refs": [
+    {
+     "d": "b2002",
+     "p": 5,
+     "r": [
+      [
+       210.2,
+       771.7,
+       462.2,
+       783.7
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sai-tempo",
+   "theme": "saida",
+   "label": "documentado",
+   "title": "Um ano e meio no cargo",
+   "text": "Entre a nomeação, em 14/12/2000, e a exoneração, que vale a partir de 28/6/2002, foram um ano, seis meses e catorze dias.",
+   "refs": [
+    {
+     "d": "b2000",
+     "p": 12,
+     "r": [
+      [
+       378.1,
+       226.6,
+       538.6,
+       238.6
+      ],
+      [
+       120.5,
+       239.3,
+       206.9,
+       251.3
+      ]
+     ]
+    },
+    {
+     "d": "b2002",
+     "p": 5,
+     "r": [
+      [
+       352.3,
+       758.9,
+       550.0,
+       770.9
+      ],
+      [
+       109.4,
+       771.7,
+       203.0,
+       783.7
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sai-deputado",
+   "theme": "saida",
+   "label": "documentado",
+   "title": "Meses depois, deputado estadual",
+   "text": "O perfil da Alerj registra o primeiro mandato de Flávio como deputado estadual, na legislatura 2003/2007. Ele foi eleito em outubro de 2002, pelo PPB (fora deste documento).",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       130.8,
+       299.5,
+       226.4,
+       305.0
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sai-formado",
+   "theme": "saida",
+   "label": "documentado",
+   "title": "A faculdade terminou em 2006, já com mandato",
+   "text": "Segundo o diploma, o curso de Direito foi concluído em 8/2/2006, quando Flávio já era deputado estadual.",
+   "refs": [
+    {
+     "d": "diplomas",
+     "p": 1,
+     "r": [
+      [
+       45.5,
+       212.0,
+       404.0,
+       228.5
+      ]
+     ]
+    },
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       130.8,
+       299.5,
+       226.4,
+       305.0
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "extras": [
+  {
+   "title": "A Câmara: o cargo não pode ser exercido fora de Brasília",
+   "label": "reportagem",
+   "date": "janeiro de 2019",
+   "text": "Pela Lei de Acesso à Informação, a Câmara disse à BBC que os cargos de natureza especial, como o de Flávio, “têm por finalidade a prestação de serviços de assessoramento aos órgãos da Casa, em Brasília. Desse modo, não possuem a prerrogativa de exercerem suas atividades em outra cidade além da capital federal”.",
+   "note": "Quem pode trabalhar na base eleitoral, fora de Brasília, é outro cargo: o de secretário parlamentar.",
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "title": "Um cargo de 40 horas por semana, com presença anotada uma vez por mês",
+   "label": "reportagem",
+   "date": "janeiro de 2019",
+   "text": "Segundo a BBC, o cargo era de 40 horas semanais. A presença de Flávio era registrada numa folha mensal, em vez de ponto diário: todo mês, a chefia da liderança do PPB enviava à Câmara um relatório com os dias em que ele trabalhou. Esse controle mais flexível é previsto nas normas da Câmara.",
+   "note": "",
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "title": "R$ 56.548,63 em 2001",
+   "label": "reportagem",
+   "date": "janeiro de 2019",
+   "text": "Segundo a declaração de Imposto de Renda que Flávio entregou à Justiça Eleitoral em 2002, o cargo rendeu R$ 56.548,63 em 2001: cerca de R$ 4.712 por mês, ou R$ 13,5 mil por mês em valores de janeiro de 2019, corrigidos pelo INPC.",
+   "note": "",
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "title": "Aulas de quatro a cinco horas por dia, com chamada",
+   "label": "reportagem",
+   "date": "janeiro de 2019",
+   "text": "Dois ex-professores e dois ex-alunos, que disseram ter sido colegas de Flávio em disciplinas da manhã, contaram à BBC que o curso de Direito da Candido Mendes tinha de quatro a cinco horas de aula por dia, em média, nos dois primeiros anos, com presença controlada por chamada.",
+   "note": "As disciplinas podiam ser cursadas de manhã, à tarde ou à noite, e a frequência mínima é de 75%. A universidade não informou em que turnos Flávio estudou.",
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "title": "Estágio voluntário, duas vezes por semana",
+   "label": "reportagem",
+   "date": "janeiro de 2019",
+   "text": "A Defensoria Pública disse à BBC que não há registro de atuação formal de Flávio. Um defensor do núcleo de sistema penitenciário contou que ele foi seu estagiário voluntário duas vezes por semana, sem bolsa, controle de frequência ou carga mínima, e que era “assíduo e interessado”.",
+   "note": "No LinkedIn, segundo a BBC, o estágio aparecia de março de 2001 a janeiro de 2002, outra data, mas também dentro do tempo do cargo.",
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "title": "Mais de 1.000 km entre as duas cidades",
+   "label": "reportagem",
+   "date": "janeiro de 2019",
+   "text": "Brasília e o Rio ficam a mais de 1.000 km, ou quase uma hora e meia de voo. A reportagem pergunta como ele conciliava o estágio e a faculdade no Rio com o cargo em Brasília.",
+   "note": "",
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "title": "Ana Cristina era então mulher de Jair Bolsonaro",
+   "label": "reportagem",
+   "date": "janeiro de 2019",
+   "text": "Segundo a BBC, Ana Cristina Siqueira Valle, que ocupou o cargo antes de Flávio, era a segunda mulher de Jair Bolsonaro e já tinha trabalhado em outros gabinetes e comissões da Câmara. Contratar parentes para cargos de confiança só foi proibido em 2008, com uma súmula do STF.",
+   "note": "A BBC escreveu que ela deixou o cargo uma semana antes da chegada de Flávio. Nos atos do boletim, as duas datas são 14/12/2000.",
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "title": "Parentes de Ana Cristina no gabinete de Jair",
+   "label": "reportagem",
+   "date": "janeiro de 2019",
+   "text": "Segundo a BBC, o pai, a mãe, a irmã e o irmão de Ana Cristina também tiveram cargos na Câmara antes da proibição de 2008, no gabinete do próprio Jair Bolsonaro.",
+   "note": "Jair negou irregularidades ao jornal O Globo, que noticiou parte dessas contratações, e disse que não era casado formalmente na época.",
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "title": "Procurado, Flávio não quis responder",
+   "label": "reportagem",
+   "date": "janeiro de 2019",
+   "text": "A assessoria de Flávio disse à BBC que não iria responder às perguntas. A assessoria de Jair Bolsonaro não respondeu até a publicação da reportagem.",
+   "note": "",
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "title": "“Fiquei cinco anos estudando na faculdade de direito”",
+   "label": "reportagem",
+   "date": "2008",
+   "text": "Em 2008, num discurso na Alerj contra o exame da OAB, Flávio disse: “Fiquei cinco anos estudando na faculdade de direito da Candido Mendes, aqui, no centro da cidade, dentre esses cinco anos, dois dedicados à prática forense, mais algumas centenas de horas de atividades extracurriculares, muito sacrifício, muita dedicação.”",
+   "note": "Em 2012, numa audiência na Alerj, disse: “Lembro com bastante carinho do meu período na Defensoria Pública, no início da faculdade.”",
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "title": "A UFRJ diz que ele nunca foi aluno",
+   "label": "reportagem",
+   "date": "12/08/2026",
+   "text": "Depois de consultar o sistema acadêmico, a UFRJ informou que “não há registro referente ao sr. Flávio Nantes Bolsonaro como discente”. A campanha atribuiu a pós citada nos perfis a “erros ou equívocos”, possivelmente tirados de páginas como a Wikipédia, e disse que pediu as correções.",
+   "note": "Segundo a Band, no mesmo dia o texto da Agência Senado já estava corrigido, e o perfil da Alerj ainda mostrava a pós à tarde.",
+   "sources": [
+    {
+     "name": "Band: “UFRJ nega pós de Flávio citada em perfis oficiais; campanha cita equívoco” (12/8/2026)",
+     "short": "Band, 12/8/2026",
+     "url": "https://www.band.com.br/politica/eleicoes/2026/ufrj-nega-pos-de-flavio-citada-em-perfis-oficiais-campanha-cita-equivoco-202608121549"
+    }
+   ]
+  },
+  {
+   "title": "Flávio publica os diplomas",
+   "label": "reportagem",
+   "date": "12/08/2026",
+   "text": "Na noite de 12/8/2026, Flávio publicou no X os diplomas de Direito, da especialização em Políticas Públicas e do MBA: “Para que não restem dúvidas sobre minha formação acadêmica”.",
+   "note": "Os três estão neste guia.",
+   "sources": [
+    {
+     "name": "Poder360: “Flávio divulga diplomas para mostrar formação acadêmica” (13/8/2026)",
+     "short": "Poder360, 13/8/2026",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-divulga-diplomas-para-mostrar-formacao-academica/"
+    },
+    {
+     "name": "Publicação de Flávio Bolsonaro no X (12/8/2026)",
+     "short": "X, 12/8/2026",
+     "url": "https://x.com/FlavioBolsonaro/status/2087721700053889062"
+    }
+   ]
+  }
+ ],
+ "outcome": [
+  {
+   "date": "outubro de 2002",
+   "title": "Eleito deputado estadual pelo PPB",
+   "label": "documentado",
+   "text": "Meses depois de deixar o cargo na Câmara. O perfil da Alerj registra o mandato de 2003 a 2007.",
+   "refs": [
+    {
+     "d": "alerj",
+     "p": 1,
+     "r": [
+      [
+       130.8,
+       299.5,
+       226.4,
+       305.0
+      ]
+     ]
+    }
+   ],
+   "sources": []
+  },
+  {
+   "date": "2003 a 2019",
+   "title": "Quatro mandatos na Alerj",
+   "label": "documentado",
+   "text": "Segundo a Agência Senado, ele exerceu quatro mandatos de deputado estadual antes de chegar ao Senado.",
+   "refs": [
+    {
+     "d": "senado",
+     "p": 1,
+     "r": [
+      [
+       137.6,
+       277.2,
+       394.7,
+       287.7
+      ]
+     ]
+    }
+   ],
+   "sources": []
+  },
+  {
+   "date": "janeiro de 2019",
+   "title": "Senador, e a reportagem sobre o cargo",
+   "label": "reportagem",
+   "text": "Às vésperas da posse no Senado, a BBC revela o cargo na Câmara. Flávio não responde.",
+   "refs": [],
+   "sources": [
+    {
+     "name": "BBC News Brasil: “Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio” (23/1/2019)",
+     "short": "BBC News Brasil, 23/1/2019",
+     "url": "https://www.bbc.com/portuguese/brasil-46828487"
+    }
+   ]
+  },
+  {
+   "date": "agosto de 2026",
+   "title": "A pós da UFRJ e os diplomas",
+   "label": "reportagem",
+   "text": "Já candidato a presidente, Flávio publica os diplomas depois que a UFRJ nega a pós citada nos perfis oficiais.",
+   "refs": [],
+   "sources": [
+    {
+     "name": "Band: “UFRJ nega pós de Flávio citada em perfis oficiais; campanha cita equívoco” (12/8/2026)",
+     "short": "Band, 12/8/2026",
+     "url": "https://www.band.com.br/politica/eleicoes/2026/ufrj-nega-pos-de-flavio-citada-em-perfis-oficiais-campanha-cita-equivoco-202608121549"
+    },
+    {
+     "name": "Poder360: “Flávio divulga diplomas para mostrar formação acadêmica” (13/8/2026)",
+     "short": "Poder360, 13/8/2026",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-divulga-diplomas-para-mostrar-formacao-academica/"
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Cargo de natureza especial (CNE)",
+   "def": "Cargo em comissão da Câmara, de livre nomeação, sem concurso. O número (CNE-09) indica o nível."
+  },
+  {
+   "term": "Assistente técnico de gabinete",
+   "def": "O cargo de Flávio. As 15 tarefas estão no Ato da Mesa nº 45, de 1996."
+  },
+  {
+   "term": "Liderança partidária",
+   "def": "Gabinete do líder de um partido na Câmara, com servidores próprios. Flávio estava na liderança do PPB."
+  },
+  {
+   "term": "PPB",
+   "def": "Partido Progressista Brasileiro, partido de Jair Bolsonaro na época. Depois virou o PP."
+  },
+  {
+   "term": "Ato da Mesa",
+   "def": "Norma interna aprovada pela Mesa Diretora da Câmara."
+  },
+  {
+   "term": "Boletim Administrativo",
+   "def": "Publicação da Câmara que reproduz os atos sobre os servidores, como nomeações e exonerações. Os boletins antigos estão no site da Câmara."
+  },
+  {
+   "term": "DCD e DOU",
+   "def": "Diário da Câmara dos Deputados e Diário Oficial da União, onde os atos são publicados oficialmente."
+  },
+  {
+   "term": "Nomear",
+   "def": "Pôr alguém num cargo. Para cargo em comissão, segue o artigo 9º, item II, da Lei nº 8.112/1990."
+  },
+  {
+   "term": "Exonerar a pedido",
+   "def": "Saída do cargo por vontade do próprio servidor (artigo 35, item II, da Lei nº 8.112/1990). Foi o caso de Flávio."
+  },
+  {
+   "term": "Exonerar",
+   "def": "Saída do cargo em comissão por decisão da autoridade (artigo 35, item I). Foi o caso de Ana Cristina."
+  },
+  {
+   "term": "Ponto",
+   "def": "Número de matrícula do servidor na Câmara, que aparece nos atos."
+  },
+  {
+   "term": "Secretário parlamentar",
+   "def": "Outro tipo de cargo, ligado ao gabinete de um deputado. Segundo a Câmara, pode trabalhar na base eleitoral, fora de Brasília."
+  },
+  {
+   "term": "Wayback Machine",
+   "def": "Arquivo da internet que guarda cópias de páginas como elas estavam numa data. As cópias da Alerj e do Senado deste guia vêm dele."
+  },
+  {
+   "term": "Súmula Vinculante 13",
+   "def": "Decisão do STF, de 2008, que proíbe nomear parentes para cargos de confiança."
+  },
+  {
+   "term": "Funcionário fantasma",
+   "def": "Expressão popular para quem é nomeado e recebe por um cargo que não exerce de fato."
+  }
+ ],
+ "about": "<p>Este guia é um mapa de leitura de sete documentos públicos, com 70 páginas. Cada ponto leva à página e marca o trecho.</p>\n<ul class=\"docs-list\">\n<li><b>Boletins Administrativos da Câmara</b> de 13/11/1998, 27/12/2000 e 31/7/2002: a nomeação de Ana Cristina, a saída dela e a nomeação de Flávio, e a saída de Flávio. Estão aqui como saem do <a href=\"https://www.camara.leg.br/boletimadm/2000/Ba20001227.pdf\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">site da Câmara</a>, sem nenhuma alteração. <button class=\"chip\" data-open-doc=\"b1998\">Abrir o de 1998</button> <button class=\"chip\" data-open-doc=\"b2000\">Abrir o de 2000</button> <button class=\"chip\" data-open-doc=\"b2002\">Abrir o de 2002</button></li>\n<li><b>Ato da Mesa nº 45, de 1996</b>: as tarefas de cada cargo em comissão da Câmara, no <a href=\"https://imagem.camara.leg.br/Imagem/d/pdf/DCD06NOV1996SUP.pdf\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Diário da Câmara de 6/11/1996</a>. Aqui estão a capa e as páginas 69 a 81, com o ato inteiro. As páginas são imagens; o texto usado na busca foi lido por computador e pode ter erros. <button class=\"chip\" data-open-doc=\"ato\">Abrir</button></li>\n<li><b>Perfil de Flávio no site da Alerj</b>, como estava em 30/1/2019, numa <a href=\"https://web.archive.org/web/20190130081742/http://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">cópia do Wayback Machine</a>. Os contatos do gabinete (telefone, e-mail e endereço) foram cobertos. <button class=\"chip\" data-open-doc=\"alerj\">Abrir</button></li>\n<li><b>Texto da Agência Senado</b> de 18/1/2019, numa <a href=\"https://web.archive.org/web/20190203071437/https://www12.senado.leg.br/noticias/materias/2019/01/18/flavio-bolsonaro-psl\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">cópia do Wayback Machine</a> de 3/2/2019. A Agência Senado autoriza a reprodução com citação. <button class=\"chip\" data-open-doc=\"senado\">Abrir</button></li>\n<li><b>Diplomas</b> que Flávio <a href=\"https://x.com/FlavioBolsonaro/status/2087721700053889062\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">publicou no X</a> em 12/8/2026. Os números de documento aparecem cobertos. <button class=\"chip\" data-open-doc=\"diplomas\">Abrir</button></li>\n</ul>\n<p>A reportagem da BBC News Brasil (23/1/2019), que revelou o caso, não está hospedada aqui: é um texto protegido por direitos autorais. O que vem dela está em <a href=\"#extras\">Fatos extras</a>, com link para a reportagem.</p>\n<p>Nos arquivos que não são da Câmara, os metadados (programa e data de quem gerou o arquivo) foram apagados.</p>"
+}

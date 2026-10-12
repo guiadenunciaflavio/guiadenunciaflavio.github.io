@@ -1,10 +1,10 @@
 /* Tutorial "Como usar": destaca cada parte do guia, uma por vez, e explica para que serve.
    Abre sozinho na primeira visita. Quem chega por um link de ponto, tema ou página vê só um convite,
    para não tapar o que veio ver. Também abre pelo "Como usar" (botões com data-tour) e pelo endereço #como-usar.
-   O mesmo arquivo serve aos dois guias; o texto muda conforme <body data-guia>. */
+   O mesmo arquivo serve aos três guias; o texto muda conforme <body data-guia>. */
 
 const $ = (s, r = document) => r.querySelector(s);
-const GUIA = document.body.dataset.guia === 'suspeicao' ? 'suspeicao' : 'denuncia';
+const GUIA = ['suspeicao', 'cargo'].includes(document.body.dataset.guia) ? document.body.dataset.guia : 'denuncia';
 const KEY = 'guia.tour.' + GUIA;
 const HASH = '#como-usar';
 const reduce = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -23,6 +23,7 @@ const TXT = {
     entenda: 'O caso em poucos parágrafos, com uma tabela que compara o que se diz por aí com o que o documento mostra. Cada linha tem o botão para ver a página.',
     documento: 'O documento abre na página certa, com o trecho marcado em amarelo. A barra do ponto mostra o resumo e leva ao <b>Próximo ponto</b> do tema.',
     menu: 'No menu ficam a Cronologia, os Fatos extras (de fora da denúncia, sempre com fonte), o Desfecho do caso e o Glossário. <b>Todos os guias</b> volta à página inicial.',
+    ponto: 'Etiqueta, tema, resumo e as páginas. <b>Ver na p.</b> abre o trecho marcado, e <b>Seguir daqui, ponto a ponto</b> começa um passo a passo a partir dele.',
   },
   suspeicao: {
     busca: 'Digite um nome ou uma palavra, como “Palocci” ou “grampo”. A busca procura nos três documentos (o acórdão do STF, a decisão de Fachin e a do Comitê da ONU), e cada resultado abre a página com a palavra marcada.',
@@ -31,6 +32,16 @@ const TXT = {
     entenda: 'O que o STF decidiu, em poucos parágrafos, e uma tabela que compara o que se diz por aí com o que os documentos mostram. Cada linha tem o botão para ver a página.',
     documento: 'O documento abre na página certa, com o trecho marcado em amarelo. No topo aparece qual dos três documentos está aberto, e a barra do ponto leva ao <b>Próximo ponto</b> do tema.',
     menu: 'No menu ficam a Cronologia, os Fatos extras (de fora do acórdão, sempre com fonte), o Desfecho e o Glossário. <b>Todos os guias</b> volta à página inicial.',
+    ponto: 'Etiqueta, tema, resumo e as páginas. <b>Ver na p.</b> abre o trecho marcado, e <b>Seguir daqui, ponto a ponto</b> começa um passo a passo a partir dele.',
+  },
+  cargo: {
+    busca: 'Digite um nome ou uma palavra, como “Defensoria” ou “PPB”. A busca procura nos sete documentos, e cada resultado abre a página com a palavra marcada.',
+    mapa: 'Cada linha é um dos sete documentos, e cada quadradinho, uma página. Os de cor cheia têm trecho marcado no guia. Toque em um deles para abrir a página.',
+    etiquetas: 'Cada ponto do guia leva uma destas etiquetas. Ela diz o peso do que se afirma: um fato registrado nos documentos, uma informação de reportagem ou uma leitura nossa que liga os fatos.',
+    entenda: 'O caso em poucos parágrafos, com uma tabela que compara o que se diz por aí com o que os documentos mostram. Cada linha tem o botão para ver a página.',
+    documento: 'O documento abre na página certa, com o trecho marcado em amarelo. No topo aparece qual dos sete documentos está aberto, e a barra do ponto leva ao <b>Próximo ponto</b> do tema.',
+    menu: 'No menu ficam a Cronologia, os Fatos extras (de reportagens, sempre com link), o que veio Depois do cargo e o Glossário. <b>Todos os guias</b> volta à página inicial.',
+    ponto: 'Etiqueta, tema, resumo e os documentos. O botão com o documento e a página, como <b>Boletim 2000, p. 3384</b>, abre o trecho marcado, e <b>Seguir daqui, ponto a ponto</b> começa um passo a passo a partir dele.',
   },
 }[GUIA];
 
@@ -46,7 +57,7 @@ const STEPS = [
   { viewer: true, target: () => (innerWidth <= 1000 ? '#vGuide' : '#viewer'), compact: ['#vDoc', '#vGuide .v-guide-top'], title: 'O documento, com o trecho marcado', text: TXT.documento },
   { viewer: true, target: '.v-head', title: 'Mudar de página e compartilhar', text: '<b>‹</b> e <b>›</b> mudam de página, <b>+</b> e <b>−</b> mudam o tamanho e <b>Compartilhar</b> envia o ponto aberto. No computador, <b>1 página</b> passa a mostrar duas lado a lado. <b>Fechar</b> volta ao guia.' },
   { target: ['#rtFilters', '.rt-search'], title: 'Roteiro de Tudo', text: 'Todos os pontos que encontramos, inclusive os menores. Filtre por etiqueta ou por tema, ou digite uma palavra para filtrar a lista.' },
-  { target: '#roteiroList > .rt', compact: '#roteiroList > .rt .refs', title: 'Em cada ponto', text: 'Etiqueta, tema, resumo e as páginas. <b>Ver na p.</b> abre o trecho marcado, e <b>Seguir daqui, ponto a ponto</b> começa um passo a passo a partir dele.' },
+  { target: '#roteiroList > .rt', compact: '#roteiroList > .rt .refs', title: 'Em cada ponto', text: TXT.ponto },
   { target: '#roteiroList > .rt [data-arg-add]', title: 'Monte o seu argumento', text: 'Toque em <b>+ Argumento</b> nos pontos que quiser juntar. Eles vão para <b>Meu argumento</b>, um botão que aparece no canto da tela, onde você põe na ordem, dá um título e envia tudo junto.' },
   { target: '#roteiroList > .rt [data-share-ponto]', title: 'Compartilhe', text: 'Envie pelo WhatsApp, Telegram, X e outras redes, sempre com o link para o trecho marcado. Para Instagram e TikTok, o guia cria uma imagem com o trecho e um QR code. Temas inteiros também podem ser enviados.' },
   { target: () => (innerWidth > 1240 ? '.nav' : '#menuBtn'), title: 'As outras seções', text: TXT.menu },

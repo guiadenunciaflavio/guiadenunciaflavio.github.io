@@ -24,10 +24,10 @@ Pasta pronta, 100% estática (HTML + JS + PDF em 12 partes de ~25 páginas). Sem
 - `pdf/` (documento em partes)
 
 ## Tutorial "Como usar"
-- `assets/tour.js` (o mesmo arquivo nos dois guias) destaca cada parte do guia e explica para que serve: busca, mapa das páginas, etiquetas, Entenda, temas, o documento aberto com o trecho marcado, Roteiro de Tudo, "+ Argumento", Compartilhar e o menu.
+- `assets/tour.js` (o mesmo arquivo nos três guias) destaca cada parte do guia e explica para que serve: busca, mapa das páginas, etiquetas, Entenda, temas, o documento aberto com o trecho marcado, Roteiro de Tudo, "+ Argumento", Compartilhar e o menu.
 - Abre sozinho na primeira visita. Quem chega por um link de ponto, tema ou página (`#a=`, `#tema=`, `#p=`, `#d=`) vê só um convite no canto, para não tapar o que veio ver.
 - Depois abre por "Como usar" (no início da página, no menu e no rodapé) ou pelo endereço `#como-usar`.
-- Guarda no navegador só que o tutorial já foi visto (`guia.tour.denuncia` ou `guia.tour.suspeicao`). O texto de cada guia fica no objeto `TXT`, conforme `<body data-guia>`.
+- Guarda no navegador só que o tutorial já foi visto (`guia.tour.denuncia`, `guia.tour.suspeicao` ou `guia.tour.cargo`). O texto de cada guia fica no objeto `TXT`, conforme `<body data-guia>`.
 
 ## Compartilhar
 - Cada ponto do Roteiro e da Cronologia tem "+ Argumento" e "Compartilhar". Cada tema tem "Compartilhar tema". No visualizador, "Compartilhar" envia o ponto do passo a passo ou, fora dele, a página aberta.

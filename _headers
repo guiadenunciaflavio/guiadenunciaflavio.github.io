@@ -6,5 +6,5 @@
   Cache-Control: public, max-age=86400
 /suspeicao/pdf/*
   Cache-Control: public, max-age=86400
-/cargo-na-camara/docs/*
+/cargo-na-camara/pdf/*
   Cache-Control: public, max-age=86400

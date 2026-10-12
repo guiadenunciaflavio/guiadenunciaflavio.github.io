@@ -19,10 +19,10 @@ Guia de leitura do acórdão do STF no Habeas Corpus 164.493 (Segunda Turma, mar
 - interpretação: leitura que liga fatos (hoje nenhum ponto usa).
 
 ## Tutorial "Como usar"
-- `assets/tour.js` (o mesmo arquivo nos dois guias) destaca cada parte do guia e explica para que serve: busca, mapa das páginas, etiquetas, Entenda, temas, o documento aberto com o trecho marcado, Roteiro de Tudo, "+ Argumento", Compartilhar e o menu.
+- `assets/tour.js` (o mesmo arquivo nos três guias) destaca cada parte do guia e explica para que serve: busca, mapa das páginas, etiquetas, Entenda, temas, o documento aberto com o trecho marcado, Roteiro de Tudo, "+ Argumento", Compartilhar e o menu.
 - Abre sozinho na primeira visita. Quem chega por um link de ponto, tema ou página (`#a=`, `#tema=`, `#p=`, `#d=`) vê só um convite no canto, para não tapar o que veio ver.
 - Depois abre por "Como usar" (no início da página, no menu e no rodapé) ou pelo endereço `#como-usar`.
-- Guarda no navegador só que o tutorial já foi visto (`guia.tour.denuncia` ou `guia.tour.suspeicao`). O texto de cada guia fica no objeto `TXT`, conforme `<body data-guia>`.
+- Guarda no navegador só que o tutorial já foi visto (`guia.tour.denuncia`, `guia.tour.suspeicao` ou `guia.tour.cargo`). O texto de cada guia fica no objeto `TXT`, conforme `<body data-guia>`.
 
 ## Compartilhar
 - Cada ponto tem "+ Argumento" e "Compartilhar"; cada tema tem "Compartilhar tema"; no visualizador, "Compartilhar" envia o ponto aberto ou a página.
