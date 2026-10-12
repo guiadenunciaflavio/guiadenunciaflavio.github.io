@@ -153,24 +153,23 @@ def rich(t):
 
 
 # ---------------------------------------------------------------- gráfico (SVG)
-def grafico(compacto=False):
-    if compacto:
-        W, H, L0, R0, T0, B0 = 430, 330, 46, 330, 30, 290
-    else:
-        W, H, L0, R0, T0, B0 = 800, 400, 70, 640, 34, 352
+def grafico():
+    """patrimônio declarado em cada eleição, com todos os anos no eixo (os anos com declaração em negrito)"""
+    W, H, L0, R0, T0, B0 = 820, 420, 74, 650, 34, 352
     x = lambda a: L0 + (a - 2002) * (R0 - L0) / 24
     y = lambda v: B0 - v / 9e6 * (B0 - T0)
+    decl = set(TSE_F) | set(TSE_L)
     g = []
     g.append(f'<rect x="{x(2011):.1f}" y="{T0}" width="{x(2015) - x(2011):.1f}" height="{B0 - T0}" class="band lu-band"/>')
-    g.append(f'<text x="{(x(2011) + x(2015)) / 2:.1f}" y="{T0 - 10}" class="band-t" text-anchor="middle">{"palestras" if compacto else "palestras de Lula"}</text>')
+    g.append(f'<text x="{(x(2011) + x(2015)) / 2:.1f}" y="{T0 - 10}" class="band-t" text-anchor="middle">palestras de Lula</text>')
     g.append(f'<rect x="{x(2021):.1f}" y="{T0}" width="{x(2024) - x(2021):.1f}" height="{B0 - T0}" class="band fl-band"/>')
-    g.append(f'<text x="{(x(2021) + x(2024)) / 2:.1f}" y="{T0 - 10}" class="band-t" text-anchor="middle">{"casa" if compacto else "casa de Flávio"}</text>')
+    g.append(f'<text x="{(x(2021) + x(2024)) / 2:.1f}" y="{T0 - 10}" class="band-t" text-anchor="middle">casa de Flávio</text>')
+    for a in range(2002, 2027):
+        g.append(f'<line x1="{x(a):.1f}" x2="{x(a):.1f}" y1="{T0}" y2="{B0 + 5}" class="vgrid{" vd" if a in decl else ""}"/>')
+        g.append(f'<text transform="translate({x(a) + 4:.1f} {B0 + 14}) rotate(-45)" class="ax{" yd" if a in decl else ""}" text-anchor="end">{a}</text>')
     for v in range(0, 10, 2):
         g.append(f'<line x1="{L0}" x2="{R0}" y1="{y(v * 1e6):.1f}" y2="{y(v * 1e6):.1f}" class="grid"/>')
-        rot = ("0" if compacto else "R$ 0") if v == 0 else (f"{v} mi" if compacto else f"R$ {v} mi")
-        g.append(f'<text x="{L0 - 8}" y="{y(v * 1e6) + 5:.1f}" class="ax" text-anchor="end">{rot}</text>')
-    for a in range(2002, 2027, 8 if compacto else 4):
-        g.append(f'<text x="{x(a):.1f}" y="{B0 + 26}" class="ax" text-anchor="middle">{a}</text>')
+        g.append(f'<text x="{L0 - 10}" y="{y(v * 1e6) + 5:.1f}" class="ax" text-anchor="end">{"R$ 0" if v == 0 else f"R$ {v} mi"}</text>')
 
     def serie(pts, cls, quebras):
         out = []
@@ -184,23 +183,14 @@ def grafico(compacto=False):
     pl = sorted(TSE_L.items())
     g += serie(pl, 'lu', {(2006, 2018)})
     g += serie(pf, 'fl', {(2018, 2026)})
-    lab = [
-        (2018, TSE_L[2018], 'lu', 'R$ 7,99 mi', 'middle', 0, -14),
-        (2018, TSE_F[2018], 'fl', 'R$ 1,74 mi', 'start' if compacto else 'middle', 4 if compacto else 0, 24),
-    ]
-    for a, v, cls, t, anc, dx, dy in lab:
-        g.append(f'<text x="{x(a) + dx:.1f}" y="{y(v) + dy:.1f}" class="vl {cls}" text-anchor="{anc}">{t}</text>')
+    for a, v, cls, t, dy in ((2018, TSE_L[2018], 'lu', 'R$ 7,99 mi', -14), (2018, TSE_F[2018], 'fl', 'R$ 1,74 mi', 24)):
+        g.append(f'<text x="{x(a):.1f}" y="{y(v) + dy:.1f}" class="vl {cls}" text-anchor="middle">{t}</text>')
     for nome, v, cls in (('Flávio', TSE_F[2026], 'fl'), ('Lula', TSE_L[2026], 'lu')):
-        if compacto:   # nome e valor em duas linhas
-            g.append(f'<text x="{x(2026) + 10:.1f}" y="{y(v) - 3:.1f}" class="vl {cls}"><tspan>{nome}</tspan>'
-                     f'<tspan x="{x(2026) + 10:.1f}" dy="16">{mi(v, 2, curto=True)}</tspan></text>')
-        else:
-            g.append(f'<text x="{x(2026) + 12:.1f}" y="{y(v) + 5:.1f}" class="vl {cls}">{nome}, {mi(v, 2, curto=True)}</text>')
+        g.append(f'<text x="{x(2026) + 12:.1f}" y="{y(v) + 5:.1f}" class="vl {cls}">{nome}, {mi(v, 2, curto=True)}</text>')
     desc = ('Patrimônio declarado ao TSE. Flávio: ' + '; '.join(f'{a}, {mi(v, 2) if v >= 1e6 else mil(v)}' for a, v in pf)
             + '. Lula: ' + '; '.join(f'{a}, {mi(v, 2) if v >= 1e6 else mil(v)}' for a, v in pl) + '.')
-    k = '2' if compacto else ''
-    return (f'<svg viewBox="0 0 {W} {H}" role="img" aria-labelledby="gT{k} gD{k}"><title id="gT{k}">Patrimônio declarado de Flávio e de Lula, '
-            f'de 2002 a 2026</title><desc id="gD{k}">{e(desc)}</desc>' + ''.join(g) + '</svg>')
+    return (f'<svg viewBox="0 0 {W} {H}" role="img" aria-labelledby="gT gD"><title id="gT">Patrimônio declarado de Flávio e de Lula, '
+            f'de 2002 a 2026</title><desc id="gD">{e(desc)}</desc>' + ''.join(g) + '</svg>')
 
 
 def tabela_decl():
@@ -492,7 +482,8 @@ h3{font:700 1.08rem var(--sans);margin:0 0 .7rem}
 .chart{margin:1rem 0 0;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem 1rem .6rem}
 .chart svg{display:block;width:100%;height:auto;font-family:var(--sans)}
 .chart .grid{stroke:var(--grid);stroke-width:1}
-.chart .ax{fill:var(--ink-2);font-size:13px}
+.chart .vgrid{stroke:var(--grid);stroke-width:1;opacity:.6} .chart .vgrid.vd{opacity:1}
+.chart .ax{fill:var(--ink-2);font-size:13px} .chart .ax.yd{fill:var(--ink);font-weight:700}
 .chart .band{opacity:.55} .chart .lu-band{fill:var(--lu-soft)} .chart .fl-band{fill:var(--fl-soft)}
 .chart .band-t{fill:var(--ink-2);font-size:12.5px;font-weight:600}
 .chart .ln{stroke-width:3;stroke-linecap:round} .chart .ln.dash{stroke-dasharray:2 7}
@@ -500,9 +491,11 @@ h3{font:700 1.08rem var(--sans);margin:0 0 .7rem}
 .chart .pt{stroke:var(--card);stroke-width:2} .chart .pt.fl{fill:var(--fl)} .chart .pt.lu{fill:var(--lu)}
 .chart .vl{font-size:14px;font-weight:700} .chart .vl.fl{fill:var(--fl)} .chart .vl.lu{fill:var(--lu)}
 .chart figcaption{font-size:.86rem;color:var(--ink-2);margin-top:.4rem}
-.chart .g-small{display:none}
-@media (max-width:640px){.chart{padding:.8rem .6rem .6rem}.chart .g-big{display:none}.chart .g-small{display:block}.chart .ax,.chart .band-t{font-size:13px}.chart .vl{font-size:14.5px}}
-.gwrap{display:grid;gap:1.2rem;align-items:start}
+.chart .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.chart .hint{display:none;margin:0 0 .4rem;font-size:.84rem;color:var(--ink-2)}
+@media (max-width:640px){.chart{padding:.8rem .6rem .6rem}.chart .scroll svg{width:660px;max-width:none}.chart .hint{display:block}}
+.gwrap{display:grid;grid-template-columns:minmax(0,1fr);gap:1.2rem;align-items:start}
+.gwrap>*{min-width:0}
 @media (min-width:980px){.gwrap{grid-template-columns:minmax(0,1fr) 300px}}
 .decl{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:.95rem}
 .decl th,.decl td{padding:.5rem .7rem;border-bottom:1px solid var(--line);text-align:right}
@@ -613,7 +606,7 @@ h3{font:700 1.08rem var(--sans);margin:0 0 .7rem}
     <h2 id="h-graf">O patrimônio declarado, eleição por eleição</h2>
     <p class="muted">Bens em nome de cada um, pelo valor declarado ao TSE, sem dívidas. A linha pontilhada liga eleições que eles não disputaram no meio do caminho.</p>
     <div class="gwrap">
-      <figure class="chart"><div class="g-big">__SVG__</div><div class="g-small">__SVG2__</div><figcaption>Fontes: Poder360, Metrópoles, Congresso em Foco e SBT News, a partir das declarações ao TSE. Lula não disputou eleições em 2010, 2014 e 2016; Flávio, em 2022.</figcaption></figure>
+      <figure class="chart"><p class="hint">Deslize o gráfico para o lado para ver todos os anos.</p><div class="scroll">__SVG__</div><figcaption>Os candidatos só declaram os bens nos anos em que disputam eleição, marcados em negrito. Lula não disputou em 2010, 2014 e 2016; Flávio, em 2022. Fontes: Poder360, Metrópoles, Congresso em Foco e SBT News, a partir das declarações ao TSE.</figcaption></figure>
       __DECL__
     </div>
     <p class="callout">Em 2018, Lula declarava __L18__ e Flávio, __F18__. Em 2026, Flávio declarou __F26__, __DIF__ a mais que Lula.</p>
@@ -741,7 +734,7 @@ def main():
     tw = 'https://twitter.com/intent/tweet?text=' + quote(f'{SHARE_TITLE}: em 2026, Flávio declarou {mi(TSE_F[2026], 2)}; Lula, {mi(TSE_L[2026], 2)}. Onde a conta não fecha, com as fontes.') + '&url=' + quote(URL)
     fb = 'https://www.facebook.com/sharer/sharer.php?u=' + quote(URL)
     rep = {
-        '__DESC__': e(DESC), '__URL__': URL, '__SVG__': grafico(), '__SVG2__': grafico(True), '__DECL__': tabela_decl(),
+        '__DESC__': e(DESC), '__URL__': URL, '__SVG__': grafico(), '__DECL__': tabela_decl(),
         '__L18__': mi(TSE_L[2018], 2), '__F18__': mi(TSE_F[2018], 2), '__F26__': mi(TSE_F[2026], 2), '__DIF__': mi(dif_2026, 2),
         '__LADO__': lado_a_lado(), '__TRAJ__': trajetoria(),
         '__TRAJSRC__': fontes('metro_l', 'senado', 'cargo', 'p360_f', 'cf_2006', 'den', 'susp'),

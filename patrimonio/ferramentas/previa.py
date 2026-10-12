@@ -40,9 +40,9 @@ h1 span{{background:linear-gradient(transparent 58%,#ffe14d 58% 92%,transparent 
 
 CARTAO = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>
 *{{box-sizing:border-box}} body{{margin:0;width:961px;height:601px;background:#fff;font-family:system-ui,"Segoe UI",Roboto,Arial,sans-serif;--fl:#0e7479;--fl-soft:#dcf0f0;--lu:#7a4ab0;--lu-soft:#ece4f6;--grid:#e8ecf2;--ink-2:#4a5568;--card:#fff}}
-.wrap{{padding:70px 24px 10px 6px}}
+.wrap{{padding:58px 18px 10px 4px}}
 svg{{display:block;width:100%;height:auto}}
-.grid{{stroke:var(--grid)}} .ax{{fill:var(--ink-2);font-size:13px}} .band{{opacity:.55}} .lu-band{{fill:var(--lu-soft)}} .fl-band{{fill:var(--fl-soft)}}
+.grid{{stroke:var(--grid)}} .vgrid{{stroke:var(--grid);opacity:.6}} .vgrid.vd{{opacity:1}} .ax{{fill:var(--ink-2);font-size:13px}} .ax.yd{{fill:#16202e;font-weight:700}} .band{{opacity:.55}} .lu-band{{fill:var(--lu-soft)}} .fl-band{{fill:var(--fl-soft)}}
 .band-t{{fill:var(--ink-2);font-size:12.5px;font-weight:600}} .ln{{stroke-width:3;stroke-linecap:round}} .ln.dash{{stroke-dasharray:2 7}}
 .ln.fl{{stroke:var(--fl)}} .ln.lu{{stroke:var(--lu)}} .pt{{stroke:#fff;stroke-width:2}} .pt.fl{{fill:var(--fl)}} .pt.lu{{fill:var(--lu)}}
 .vl{{font-size:14px;font-weight:700}} .vl.fl{{fill:var(--fl)}} .vl.lu{{fill:var(--lu)}}
