@@ -30,6 +30,7 @@ Pasta pronta, 100% estática (HTML + JS + PDF em 12 partes de ~25 páginas). Sem
 - Guarda no navegador só que o tutorial já foi visto (`guia.tour.denuncia`, `guia.tour.suspeicao` ou `guia.tour.cargo`). O texto de cada guia fica no objeto `TXT`, conforme `<body data-guia>`.
 
 ## Compartilhar
+- "Postar no Instagram" (no topo e no painel "Compartilhar") abre o post pronto do guia, em Feed ou Stories, com legenda. Os posts ficam em `../compartilhar/`.
 - Cada ponto do Roteiro e da Cronologia tem "+ Argumento" e "Compartilhar". Cada tema tem "Compartilhar tema". No visualizador, "Compartilhar" envia o ponto do passo a passo ou, fora dele, a página aberta.
 - "Meu argumento" (canto inferior esquerdo) junta pontos: dá para ordenar, dar título e compartilhar.
 - O painel "Compartilhar" tem botões para WhatsApp, Telegram, X, Facebook, Threads, Bluesky, LinkedIn, Reddit e e-mail, além de copiar link ou texto e, no celular, "Outros apps".

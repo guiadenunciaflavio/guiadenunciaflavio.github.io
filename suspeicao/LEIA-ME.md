@@ -25,6 +25,7 @@ Guia de leitura do acórdão do STF no Habeas Corpus 164.493 (Segunda Turma, mar
 - Guarda no navegador só que o tutorial já foi visto (`guia.tour.denuncia`, `guia.tour.suspeicao` ou `guia.tour.cargo`). O texto de cada guia fica no objeto `TXT`, conforme `<body data-guia>`.
 
 ## Compartilhar
+- "Postar no Instagram" (no topo e no painel "Compartilhar") abre o post pronto do guia, em Feed ou Stories, com legenda. Os posts ficam em `../compartilhar/`.
 - Cada ponto tem "+ Argumento" e "Compartilhar"; cada tema tem "Compartilhar tema"; no visualizador, "Compartilhar" envia o ponto aberto ou a página.
 - Os textos seguem a voz do documento de cada ponto ("Segundo o acórdão do STF que declarou Moro parcial", "Segundo a decisão do ministro Edson Fachin…", "Segundo a decisão do Comitê de Direitos Humanos da ONU…"), com o peso de cada ponto e as páginas, e terminam com a linha "Base: N fatos registrados no acórdão e N afirmações de ministros ou das mensagens".
 - Temas longos compartilham só os pontos principais (por exemplo, os sete fatos) e o link abre o tema inteiro.

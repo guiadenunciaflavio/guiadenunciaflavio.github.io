@@ -25,6 +25,7 @@ Os boletins são os arquivos do site da Câmara, sem nenhuma alteração. Nos ou
 ## Estrutura
 - `index.html`, `assets/app.js`, `assets/app.css`: a página e o visualizador (mesma base dos outros guias).
 - `assets/card.js`: imagens e textos de compartilhamento. `assets/tour.js`: tutorial, o mesmo arquivo nos três guias.
+- "Postar no Instagram" (no topo e no painel "Compartilhar") abre o post pronto do guia, em Feed ou Stories, com legenda. Os posts ficam em `../compartilhar/`.
 - `data/content.json`: todos os textos e os trechos marcados, gerado por `ferramentas/montar_conteudo.py`. Não edite à mão.
 - `data/chunks.json`, `data/search.json`, `data/paginas.json` e `data/boxes/DOC/pNNN.json`: gerados por `ferramentas/preparar_documentos.py` (palavras com as caixas, usadas na busca e no marca-texto).
 - `ponto/ID/` e `tema/ID/`: páginas com prévia própria para WhatsApp, Facebook, X etc.; redirecionam para `#a=ID` e `#tema=ID`. `og/`: as imagens dessas prévias.

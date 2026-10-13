@@ -562,6 +562,7 @@ h3{font:700 1.08rem var(--sans);margin:0 0 .7rem}
 .question .big{font-family:var(--serif);font-size:clamp(1.5rem,3.6vw,2.1rem);line-height:1.25;margin:1.2rem 0 .8rem}
 .question .big b{background:linear-gradient(transparent 58%,var(--mark) 58% 92%,transparent 92%);-webkit-box-decoration-break:clone;box-decoration-break:clone}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .question .big b{background:linear-gradient(transparent 58%,rgba(255,225,77,.38) 58% 92%,transparent 92%)}}
+.question .ask-share{margin:1.1rem 0 0}
 
 /* compartilhar */
 .share{display:grid;gap:1.2rem;align-items:start}
@@ -583,6 +584,7 @@ h3{font:700 1.08rem var(--sans);margin:0 0 .7rem}
 .foot p{margin:.3rem 0;max-width:48rem}
 @media print{.top nav,.share,.toast{display:none}.question{box-shadow:none}}
 </style>
+<link rel="stylesheet" href="../compartilhar/compartilhar.css">
 </head>
 <body>
 <a class="skip" href="#conteudo">Ir para o conteúdo</a>
@@ -659,6 +661,7 @@ h3{font:700 1.08rem var(--sans);margin:0 0 .7rem}
     <p>A diferença está no tipo de buraco. Na conta de Lula, o salto do patrimônio tem origem conhecida, as palestras, que foram investigadas e arquivadas; o que falta explicar é para onde foram de __LSOBRA__ no terceiro mandato. Na de Flávio, o que falta explicar é de onde veio o dinheiro: salas pagas com cheques de terceiros, 141 depósitos em espécie, R$ 247 mil em mensalidades e plano de saúde pagos sem sair das contas do casal, R$ 200 mil em espécie numa loja de chocolates e, desde que ele virou senador, de __FFALTA__ a mais do que as fontes conhecidas.</p>
     <p class="big">Um patrimônio encolheu um terço em quatro anos de Presidência. O outro quase quintuplicou desde que o dono se elegeu senador. <b>Quem será que roubou mesmo?</b></p>
     <p class="fine">Nada aqui prova crime de ninguém. São as contas, com as fontes, para você tirar a sua conclusão.</p>
+    <p class="ask-share"><a class="sh main" href="../compartilhar/patrimonio-feed.jpg" data-insta="patrimonio">Postar a pergunta no Instagram</a></p>
   </section>
 
   <section id="compartilhar" aria-labelledby="h-share">
@@ -671,6 +674,7 @@ h3{font:700 1.08rem var(--sans);margin:0 0 .7rem}
           <a class="sh" href="__TG__" target="_blank" rel="noopener noreferrer">Telegram</a>
           <a class="sh" href="__TW__" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
           <a class="sh" href="__FB__" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a class="sh" href="../compartilhar/patrimonio-feed.jpg" data-insta="patrimonio">Instagram</a>
           <button class="sh" type="button" id="shCopy">Copiar link</button>
           <button class="sh" type="button" id="shNative" hidden>Outros apps</button>
         </div>
@@ -693,9 +697,17 @@ h3{font:700 1.08rem var(--sans);margin:0 0 .7rem}
     <ul class="srcs">__SRCS__</ul>
   </section>
 
+  <section class="divulgue" aria-labelledby="h-divulgue">
+    <h2 id="h-divulgue">Divulgue também</h2>
+    <ul>
+      <li><a href="https://comitepopular.com.br/" target="_blank" rel="noopener noreferrer"><b>Comitês Populares</b><span>Agenda, petições, materiais e como criar um comitê.</span><span class="url">comitepopular.com.br</span></a></li>
+      <li><a href="https://censuradigital.lula.com.br/" target="_blank" rel="noopener noreferrer"><b>Censura Digital</b><span>Teve post derrubado ou conta restringida nas redes? Denuncie no canal da campanha de Lula.</span><span class="url">censuradigital.lula.com.br</span></a></li>
+    </ul>
+  </section>
+
   <footer class="foot">
     <p>Outros guias neste site: <a href="../denuncia/">A denúncia das rachadinhas</a>, <a href="../suspeicao/">Por que o STF declarou Moro parcial</a> e <a href="../cargo-na-camara/">O cargo de Flávio na Câmara</a>. <a href="../">Página inicial</a>.</p>
-    <p>Página independente, sem vínculo com partidos, campanhas ou órgãos públicos, feita só com documentos e reportagens públicos. Nada neste site coleta dados de quem visita.</p>
+    <p>Página feita só com documentos e reportagens públicos. Nada neste site coleta dados de quem visita; os sites indicados em “Divulgue também” têm regras próprias.</p>
   </footer>
 </main>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
@@ -715,6 +727,7 @@ import('./vendor/qrcode.mjs').then(({ default: qrcode }) => {
   $('#qr').insertAdjacentHTML('afterbegin', `<svg viewBox="0 0 ${n + 2 * m} ${n + 2 * m}" role="img" aria-label="QR code"><rect width="100%" height="100%" fill="#fff"/><path d="${d}" fill="#16202e"/></svg>`);
 }).catch(() => { $('#qr').hidden = true; });
 </script>
+<script type="module" src="../compartilhar/insta.js"></script>
 </body>
 </html>
 """

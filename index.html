@@ -96,9 +96,20 @@ h1 .mk{background:linear-gradient(transparent 58%,var(--mark) 58% 92%,transparen
 .t-int{color:var(--tag-int);background:var(--tag-int-bg)}
 .t-rep{color:var(--tag-rep);background:var(--tag-rep-bg)}
 
+.posts{border-top:1px solid var(--line);padding:2rem 0 0}
+.posts h2{font-family:var(--serif);font-size:1.45rem;line-height:1.2;margin:0 0 .4rem}
+.posts>p{color:var(--ink-2);margin:0 0 1.1rem;max-width:46rem}
+.post-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+@media (min-width:860px){.post-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:1.2rem}}
+.post-grid a{display:block;color:var(--ink);text-decoration:none;font-weight:700;font-size:.95rem;line-height:1.3}
+.post-grid img{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--line);margin-bottom:.55rem}
+.post-grid a:hover span{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.divulgue+.how{margin-top:2.4rem}
+
 .foot{border-top:1px solid var(--line);margin-top:1.5rem;padding:1.2rem 0 2.4rem;font-size:.9rem;color:var(--ink-2)}
 .foot p{margin:0;max-width:46rem}
 </style>
+<link rel="stylesheet" href="compartilhar/compartilhar.css">
 </head>
 <body>
 <a class="skip" href="#guias">Ir para os guias</a>
@@ -162,6 +173,25 @@ h1 .mk{background:linear-gradient(transparent 58%,var(--mark) 58% 92%,transparen
     </article>
   </section>
 
+  <section class="posts" aria-labelledby="h-posts">
+    <h2 id="h-posts">Posts prontos para o Instagram</h2>
+    <p>Um post por página, em Feed e Stories, com a legenda e o endereço. Toque para enviar ou baixar.</p>
+    <ul class="post-grid">
+      <li><a href="compartilhar/denuncia-feed.jpg" data-insta="denuncia"><img src="compartilhar/denuncia-mini.jpg" width="432" height="540" alt="" loading="lazy"><span>A denúncia das rachadinhas</span></a></li>
+      <li><a href="compartilhar/suspeicao-feed.jpg" data-insta="suspeicao"><img src="compartilhar/suspeicao-mini.jpg" width="432" height="540" alt="" loading="lazy"><span>A suspeição de Moro</span></a></li>
+      <li><a href="compartilhar/cargo-feed.jpg" data-insta="cargo"><img src="compartilhar/cargo-mini.jpg" width="432" height="540" alt="" loading="lazy"><span>O cargo na Câmara</span></a></li>
+      <li><a href="compartilhar/patrimonio-feed.jpg" data-insta="patrimonio"><img src="compartilhar/patrimonio-mini.jpg" width="432" height="540" alt="" loading="lazy"><span>As contas de Flávio e Lula</span></a></li>
+    </ul>
+  </section>
+
+  <section class="divulgue" aria-labelledby="h-divulgue">
+    <h2 id="h-divulgue">Divulgue também</h2>
+    <ul>
+      <li><a href="https://comitepopular.com.br/" target="_blank" rel="noopener noreferrer"><b>Comitês Populares</b><span>Agenda, petições, materiais e como criar um comitê.</span><span class="url">comitepopular.com.br</span></a></li>
+      <li><a href="https://censuradigital.lula.com.br/" target="_blank" rel="noopener noreferrer"><b>Censura Digital</b><span>Teve post derrubado ou conta restringida nas redes? Denuncie no canal da campanha de Lula.</span><span class="url">censuradigital.lula.com.br</span></a></li>
+    </ul>
+  </section>
+
   <section class="how" aria-labelledby="como">
     <h2 id="como">Como usar os guias</h2>
     <p>Os três guias funcionam do mesmo jeito. Na primeira visita, um tutorial de um minuto mostra cada parte. Ele também abre em “Como usar”, dentro de cada guia, ou por aqui: <a href="denuncia/#como-usar">tutorial do guia da denúncia</a>, <a href="suspeicao/#como-usar">tutorial do guia da suspeição</a> e <a href="cargo-na-camara/#como-usar">tutorial do guia do cargo</a>.</p>
@@ -170,7 +200,7 @@ h1 .mk{background:linear-gradient(transparent 58%,var(--mark) 58% 92%,transparen
       <li><b>Temas.</b> Escolha um assunto, e o guia leva você pelos pontos, um a um, com o trecho marcado em amarelo no documento.</li>
       <li><b>Roteiro de Tudo.</b> Todos os pontos encontrados, com filtros por etiqueta, tema ou palavra.</li>
       <li><b>Meu argumento.</b> Junte pontos com “+ Argumento”, ponha na ordem, dê um título e envie tudo junto.</li>
-      <li><b>Compartilhar.</b> WhatsApp, Telegram, X e outras redes recebem o link para o trecho marcado. Para Instagram e TikTok, o guia cria uma imagem com o trecho e um QR code.</li>
+      <li><b>Compartilhar.</b> WhatsApp, Telegram, X e outras redes recebem o link para o trecho marcado. Para Instagram e TikTok, o guia cria uma imagem com o trecho e um QR code. Cada página também tem um post pronto para o Instagram, em Feed e Stories.</li>
     </ul>
     <h3>As etiquetas de cada ponto</h3>
     <ul>
@@ -182,8 +212,9 @@ h1 .mk{background:linear-gradient(transparent 58%,var(--mark) 58% 92%,transparen
   </section>
 
   <footer class="foot">
-    <p>Guias independentes, sem vínculo com partidos, campanhas ou órgãos públicos. Os documentos são públicos; nas cópias deste site, dados pessoais foram cobertos. Nada aqui coleta dados de quem visita.</p>
+    <p>Os documentos são públicos; nas cópias deste site, dados pessoais foram cobertos. Nada aqui coleta dados de quem visita; os sites indicados em “Divulgue também” têm regras próprias.</p>
   </footer>
 </main>
+<script type="module" src="compartilhar/insta.js"></script>
 </body>
 </html>

@@ -19,6 +19,7 @@
 <meta property="og:image:alt" content="Título do guia com um trecho marcado da página 1 da denúncia">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="assets/app.css">
+<link rel="stylesheet" href="../compartilhar/compartilhar.css">
 </head>
 <body data-guia="denuncia">
 <a class="skip" href="#conteudo">Ir para o conteúdo</a>
@@ -60,6 +61,7 @@
         <a class="btn" href="#cronologia">Ver a cronologia</a>
         <button class="btn" data-open-page="1">Abrir o documento</button>
         <button class="btn" data-tour>Como usar o guia</button>
+        <a class="btn" href="../compartilhar/denuncia-feed.jpg" data-insta="denuncia">Postar no Instagram</a>
       </div>
       <p class="fine">Uma denúncia é a acusação do Ministério Público. Não é condenação. Flávio Bolsonaro nega irregularidades e o caso foi anulado antes de qualquer julgamento do mérito (veja <a href="#desfecho">Desfecho</a>).</p>
       <p class="fine">Outros guias neste site: <a href="../suspeicao/">Por que o STF declarou Moro parcial</a> e <a href="../cargo-na-camara/">O cargo de Flávio na Câmara</a>.</p>
@@ -136,9 +138,17 @@
     <div id="about"></div>
   </section>
 
+  <section class="divulgue" aria-labelledby="h-divulgue">
+    <h2 id="h-divulgue">Divulgue também</h2>
+    <ul>
+      <li><a href="https://comitepopular.com.br/" target="_blank" rel="noopener noreferrer"><b>Comitês Populares</b><span>Agenda, petições, materiais e como criar um comitê.</span><span class="url">comitepopular.com.br</span></a></li>
+      <li><a href="https://censuradigital.lula.com.br/" target="_blank" rel="noopener noreferrer"><b>Censura Digital</b><span>Teve post derrubado ou conta restringida nas redes? Denuncie no canal da campanha de Lula.</span><span class="url">censuradigital.lula.com.br</span></a></li>
+    </ul>
+  </section>
+
   <footer class="foot">
-    <p class="foot-nav">Outros guias neste site: <a href="../suspeicao/">Por que o STF declarou Moro parcial</a> e <a href="../cargo-na-camara/">O cargo de Flávio na Câmara</a>. <a href="../">Página inicial</a>. <a href="#como-usar" data-tour>Como usar este guia</a></p>
-    <p>Guia independente, sem vínculo com partidos, campanhas ou órgãos públicos. O documento original é público; esta cópia teve dados pessoais (CPF, RG, números de conta, endereços) cobertos. Nada neste site coleta dados de quem visita.</p>
+    <p class="foot-nav">Outros guias neste site: <a href="../suspeicao/">Por que o STF declarou Moro parcial</a>, <a href="../cargo-na-camara/">O cargo de Flávio na Câmara</a> e <a href="../patrimonio/">Flávio e Lula, conta por conta</a>. <a href="../">Página inicial</a>. <a href="#como-usar" data-tour>Como usar este guia</a></p>
+    <p>O documento original é público; esta cópia teve dados pessoais (CPF, RG, números de conta, endereços) cobertos. Nada neste site coleta dados de quem visita; os sites indicados em “Divulgue também” têm regras próprias.</p>
   </footer>
 </main>
 
@@ -205,7 +215,7 @@
     <button class="btn" id="shNative" hidden>Outros apps</button>
   </div>
   <h3 class="sh-h">Imagem para Instagram, TikTok e Stories</h3>
-  <p class="fine sh-note">Essas redes não abrem links vindos de sites. A imagem leva o ponto, o trecho marcado no documento e um QR code com o link.</p>
+  <p class="fine sh-note">Essas redes não abrem links vindos de sites. A imagem leva o ponto, o trecho marcado no documento e um QR code com o link. Para um post pronto sobre o guia todo, com legenda, <a href="../compartilhar/denuncia-feed.jpg" data-insta="denuncia">abra o post do guia</a>.</p>
   <div class="sh-fmt" id="shFmt" role="group" aria-label="Formato da imagem">
     <button class="chip on" data-fmt="story" aria-pressed="true">Stories (9:16)</button>
     <button class="chip" data-fmt="feed" aria-pressed="false">Feed (4:5)</button>
@@ -222,6 +232,7 @@
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script type="module" src="assets/app.js"></script>
+<script type="module" src="../compartilhar/insta.js"></script>
 <noscript><p style="padding:2rem">Este guia precisa de JavaScript para mostrar o documento. O PDF está dividido na pasta <code>pdf/</code>.</p></noscript>
 </body>
 </html>
